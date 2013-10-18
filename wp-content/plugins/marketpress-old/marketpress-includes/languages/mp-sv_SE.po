@@ -1,0 +1,4512 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MarketPress v2.8.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-05-13 17:24:43+0000\n"
+"Last-Translator: admin <tedy@codeorig.in>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Swedish\n"
+"X-Poedit-Country: SWEDEN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: marketpress-includes/dash-notice/wpmudev-dash-notification.php:57
+#, php-format
+#@ wpmudev
+msgid "Easily get updates, support, and one-click WPMU DEV plugin/theme installations right from in your dashboard - <strong><a href=\"%s\" title=\"Install Now &raquo;\">install the free WPMU DEV Dashboard plugin</a></strong>. &nbsp;&nbsp;&nbsp;<small><a href=\"http://premium.wpmudev.org/wpmu-dev/update-notifications-plugin-information/\">(find out more)</a></small>"
+msgstr ""
+
+#: marketpress-includes/dash-notice/wpmudev-dash-notification.php:61
+#, php-format
+#@ wpmudev
+msgid "Updates, Support, Premium Plugins, Community - <strong><a href=\"%s\" title=\"Activate Now &raquo;\">activate the WPMU DEV Dashboard plugin now</a></strong>."
+msgstr ""
+
+#: marketpress-includes/marketpress-gateways.php:170
+#: marketpress-includes/template-functions.php:625
+#@ mp
+msgid "Continue Checkout &raquo;"
+msgstr "Fortsätt med betalning &raquo;"
+
+#: marketpress-includes/marketpress-importers.php:36
+#, php-format
+#@ mp
+msgid "Import From %s"
+msgstr "Importera från %s"
+
+#: marketpress-includes/marketpress-importers.php:47
+#@ mp
+msgid "Import Now &raquo;"
+msgstr "Importera nu &raquo;"
+
+#: marketpress-includes/marketpress-importers.php:85
+#, php-format
+#@ mp
+msgid "Successfully imported %s products from WP e-Commerce. The old products were not deleted, so running the importer again will just create copies of the products in MarketPress."
+msgstr "Import at %s produkter lyckades från WP e-Commerce. De gamla produkterna raderades inte, så att köra importeringen igen kommer att skapa kopior av produkterna."
+
+#: marketpress-includes/marketpress-importers.php:88
+#, php-format
+#@ mp
+msgid "You should <a href=\"%s\">deactivate the WP e-Commerce plugin now</a>. Have fun!"
+msgstr "Du borde <a href=\\%s\"> avaktivera WP e-Commerce nu</a>."
+
+#: marketpress-includes/marketpress-importers.php:95
+#@ mp
+msgid "This will allow you to import your products and most of their attributes from the WP e-Commerce plugin."
+msgstr "Det här kommer att tillåta dig att importera dina produkter och de flesta attributen från WP e-Commerce."
+
+#: marketpress-includes/marketpress-importers.php:97
+#, php-format
+#@ mp
+msgid "It appears that you have %s products from WP e-Commerce. Click below to begin your import!"
+msgstr "Det verkar som att du har %s produkter från WP e-Commerce. Klicka nedan för att påbörja importen!"
+
+#: marketpress-includes/marketpress-importers.php:103
+#@ mp
+msgid "Please activate the WP e-Commerce plugin to import these products."
+msgstr "Vänligen aktivera WP e-Commerce för att importera dessa produkter. "
+
+#: marketpress-includes/marketpress-importers.php:108
+#@ mp
+msgid "It appears you have no products from WP e-Commerce to import. Check that the plugin is updated to the latest version (the importer only works with >3.8)."
+msgstr ""
+
+#: marketpress-includes/marketpress-importers.php:231
+#@ mp
+msgid "Import file successfully deleted."
+msgstr ""
+
+#: marketpress-includes/marketpress-importers.php:246
+#@ mp
+msgid "There was a problem uploading your file. Please check permissions or use FTP."
+msgstr ""
+
+#: marketpress-includes/marketpress-importers.php:252
+#@ mp
+msgid "The CSV file must contain at a minimum the \"title\" and \"price\" columns. Please fix and upload again."
+msgstr ""
+
+#: marketpress-includes/marketpress-importers.php:257
+#@ mp
+msgid "Invalid file format. Please upload your import file ending in \".csv\"."
+msgstr ""
+
+#: marketpress-includes/marketpress-importers.php:265
+#, php-format
+#@ mp
+msgid "Successfully imported %s products from your CSV file. Products were created in draft status, so you will need to review them then publish (bulk or one-by-one). Importing the CSV file again will just create copies of the products in MarketPress."
+msgstr ""
+
+#: marketpress-includes/marketpress-importers.php:266
+#@ mp
+msgid "Review Now &raquo;"
+msgstr "Granska nu &raquo;"
+
+#: marketpress-includes/marketpress-importers.php:274
+#, php-format
+#@ mp
+msgid "A CSV import file was detected with %d products to process."
+msgstr ""
+
+#: marketpress-includes/marketpress-importers.php:274
+#@ mp
+msgid "Delete the current CSV import file"
+msgstr ""
+
+#: marketpress-includes/marketpress-importers.php:274
+#@ mp
+msgid "Re-upload"
+msgstr ""
+
+#: marketpress-includes/marketpress-importers.php:276
+#@ mp
+msgid "Please be patient while products are being imported. Ready?"
+msgstr ""
+
+#: marketpress-includes/marketpress-importers.php:284
+#@ mp
+msgid "This will allow you to import products and most of their attributes from a CSV file."
+msgstr ""
+
+#: marketpress-includes/marketpress-importers.php:285
+#@ mp
+msgid "Your CSV file must be comma (,) delimited and fields with commas or quotes in them must be surrounded by parenthesis (\") as per the CSV standard. Columns in the CSV file can be in any order, provided that they have the correct headings from the example file. \"title\" and \"price\" are the only required columns, all others can be left blank."
+msgstr ""
+
+#: marketpress-includes/marketpress-importers.php:286
+#, php-format
+#@ mp
+msgid "To import featured images, it is preferable to upload them via FTP to a directory in your WP uploads folder: %s. Image paths should be relative to the uploads folder, like \"/myimport/myimage.png\". You may also include full external image urls and the importer will download them. This is not a preferable though because it can be too slow for a large import, and you may need to split your CSV file into multple imports to avoid timeouts. A spreadsheet program like Excel or Numbers can be used to easily manipulate your import file, and their save as CSV option will create a correctly formatted file."
+msgstr ""
+
+#: marketpress-includes/marketpress-importers.php:288
+#@ mp
+msgid "Please select and upload your CSV file below."
+msgstr ""
+
+#: marketpress-includes/marketpress-importers.php:289
+#@ mp
+msgid "Use this example file &raquo;"
+msgstr ""
+
+#: marketpress-includes/marketpress-importers.php:294
+#@ mp
+msgid "Upload &raquo;"
+msgstr ""
+
+#: marketpress-includes/marketpress-importers.php:295
+#@ mp
+msgid "Maximum file size: "
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:318
+#@ mp
+msgid "Marketplace Products"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:323
+#, php-format
+#@ mp
+msgid "Product Category: %s"
+msgstr "Produktkategori: %s"
+
+#: marketpress-includes/marketpress-ms.php:325
+#@ mp
+msgid "Marketplace Product Categories"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:330
+#, php-format
+#@ mp
+msgid "Product Tag: %s"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:332
+#@ mp
+msgid "Marketplace Product Tags"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:482
+#: marketpress-includes/marketpress-ms.php:484
+#: marketpress-includes/marketpress-ms.php:531
+#@ mp
+msgid "MarketPress Network Options"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:482
+#: marketpress-includes/marketpress-ms.php:484
+#@ mp
+msgid "MarketPress"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:507
+#@ mp
+msgid "Nice Try..."
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:522
+#@ mp
+msgid "Settings saved."
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:544
+#@ mp
+msgid "General Settings"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:548
+#@ mp
+msgid "Limit Global Widgets/Shortcodes To Main Blog"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:550
+#: marketpress-includes/marketpress-ms.php:557
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:749
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:776
+#: marketpress-includes/plugins-gateway/dibs.php:692
+#: marketpress-includes/plugins-gateway/dibs.php:755
+#: marketpress-includes/plugins-gateway/payflow.php:763
+#@ mp
+msgid "Yes"
+msgstr "Ja"
+
+#: marketpress-includes/marketpress-ms.php:551
+#: marketpress-includes/marketpress-ms.php:558
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:750
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:777
+#: marketpress-includes/plugins-gateway/dibs.php:693
+#: marketpress-includes/plugins-gateway/dibs.php:756
+#: marketpress-includes/plugins-gateway/payflow.php:764
+#@ mp
+msgid "No"
+msgstr "Nej"
+
+#: marketpress-includes/marketpress-ms.php:555
+#@ mp
+msgid "Enable Global shopping cart"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:566
+#@ mp
+msgid "Global Gateway"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:566
+#@ mp
+msgid "With the global cart enabled, you must select only one compatible gateway to be used network wide."
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:570
+#@ mp
+msgid "Select a Gateway"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:586
+#@ mp
+msgid "Gateway Permissions"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:586
+#@ mp
+msgid "Set payment gateway access permissions for network stores. The main site will maintain access to all gateways."
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:596
+#: marketpress-includes/marketpress-ms.php:667
+#@ mp
+msgid "All Can Use"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:598
+#: marketpress-includes/marketpress-ms.php:669
+#@ mp
+msgid "Pro Site Level"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:600
+#: marketpress-includes/marketpress-ms.php:671
+#@ mp
+msgid "No Access"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:616
+#@ mp
+msgid "Theme Permissions"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:616
+#@ mp
+msgid "Set theme access permissions for network stores."
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:618
+#@ mp
+msgid "For a custom css theme, save your css file with the \"MarketPress Theme: NAME\" header in the \"/marketpress/css/themes/\" folder and it will appear in this list so you may select it."
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:682
+#@ mp
+msgid "Global Marketplace URL Slugs"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:684
+#@ mp
+msgid "Customizes the url structure of global category and tag listings."
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:687
+#@ mp
+msgid "Marketplace Base"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:691
+#: marketpress-includes/marketpress-ms.php:1664
+#: marketpress-includes/marketpress-ms.php:1738
+#@ mp
+msgid "Product Categories"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:695
+#: marketpress-includes/marketpress-ms.php:1663
+#: marketpress-includes/marketpress-ms.php:1737
+#@ mp
+msgid "Product Tags"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:708
+#@ mp
+msgid "Shortcodes"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:710
+#@ mp
+msgid "Shortcodes allow you to include dynamic store content in posts and pages on your site. Simply type or paste them into your post or page content where you would like them to appear. Optional attributes can be added in a format like <em>[shortcode attr1=\"value\" attr2=\"value\"]</em>. Note that depending on your preference above, you may only be able to use these on the main blog."
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:713
+#@ mp
+msgid "Global Products List"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:716
+#@ mp
+msgid "Displays a network-wide list of products according to preference."
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:718
+#: marketpress-includes/marketpress-ms.php:743
+#: marketpress-includes/marketpress-ms.php:759
+#@ mp
+msgid "Optional Attributes:"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:720
+#@ mp
+msgid "\"paginate\" - Whether to paginate the product list. This is useful to only show a subset. Default: 1"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:721
+#@ mp
+msgid "\"page\" - How many products to display in the product list if \"paginate\" is set to true. Default: 20"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:722
+#@ mp
+msgid "\"per_page\" - How many products to display in the product list if \"paginate\" is set to 1."
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:723
+#@ mp
+msgid "\"order_by\" - What field to order products by. Can be: date, title, price, sales, rand. Default: date"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:724
+#: marketpress-includes/marketpress-ms.php:763
+#@ mp
+msgid "\"order\" - Direction to order products by. Can be: DESC, ASC. Default: DESC"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:725
+#@ mp
+msgid "\"category\" - Limits list to a specific product category. Use the category Slug"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:726
+#@ mp
+msgid "\"tag\" - Limits list to a specific product tag. Use the tag Slug"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:727
+#@ mp
+msgid "\"show_thumbnail\" - Whether to show the product thumbnail. Default: 1"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:728
+#@ mp
+msgid "\"thumbnail_size\" - Max thumbnail width/height. Default: 150"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:729
+#@ mp
+msgid "\"show_price\" - Whether to show the product price. Default: 1"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:730
+#@ mp
+msgid "\"text\" - Choose \"excerpt\", \"content\", or \"none\". Default: excerpt"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:731
+#@ mp
+msgid "\"as_list\" - Whether to show as an unordered list. Default: 0"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:732
+#: marketpress-includes/marketpress-ms.php:748
+#: marketpress-includes/marketpress-ms.php:766
+#@ mp
+msgid "Example:"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:734
+#@ mp
+msgid "You may also use the mp_list_global_products() template function in your theme with the same arguments."
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:738
+#@ mp
+msgid "Global Tag Cloud"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:741
+#: marketpress-includes/marketpress-ms.php:1627
+#@ mp
+#@ default
+msgid "Displays global most used product tags in cloud format from network MarketPress stores."
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:745
+#@ mp
+msgid "\"limit\" - Maximum amount of tags to display. Default: 45"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:746
+#@ mp
+msgid "\"seperator\" - String to seperate tags by, like a comma, etc."
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:747
+#@ mp
+msgid "\"include\" - What to show, \"tags\", \"categories\", or \"both\". Default: \"both\""
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:750
+#@ mp
+msgid "You may also use the mp_global_tag_cloud() template function in your theme with the same arguments."
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:754
+#@ mp
+msgid "Global Categories List"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:757
+#@ mp
+msgid "Displays a network-wide HTML list of product categories according to preference."
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:761
+#@ mp
+msgid "\"limit\" - Text to display for showing all categories. Default: 50"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:762
+#@ mp
+msgid "\"order_by\" - What column to use for ordering the categories. \"count\" or \"name\". Default: count"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:764
+#@ mp
+msgid "\"show_count\" - Whether to show how many posts are in the category. Default: 0"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:765
+#@ mp
+msgid "\"include\" - What to show, \"tags\", \"categories\", or \"both\"."
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:768
+#@ mp
+msgid "You may also use the mp_global_categories_list() template function in your theme with the same arguments."
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:776
+#@ mp
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: marketpress-includes/marketpress-ms.php:1128
+#, php-format
+#@ mp
+msgid "%d Products"
+msgstr "%d Produkter"
+
+#: marketpress-includes/marketpress-ms.php:1211
+#: marketpress-includes/template-functions.php:2160
+#: marketpress-includes/template-functions.php:2166
+#@ mp
+msgid "Products"
+msgstr "Produkter"
+
+#: marketpress-includes/marketpress-ms.php:1391
+#: marketpress-includes/template-functions.php:1760
+#: marketpress-includes/template-functions.php:1801
+#: marketpress-includes/template-functions.php:1816
+#@ mp
+msgid "Buy Now &raquo;"
+msgstr "Köp nu &raquo;"
+
+#: marketpress-includes/marketpress-ms.php:1402
+#: marketpress-includes/marketpress-ms.php:1404
+#: marketpress-includes/template-functions.php:181
+#: marketpress-includes/template-functions.php:1363
+#@ mp
+msgid "No Products"
+msgstr "Inga produkter"
+
+#: marketpress-includes/marketpress-ms.php:1440
+#@ mp
+msgid "&laquo; Previous"
+msgstr "&laquo; Föregående"
+
+#: marketpress-includes/marketpress-ms.php:1441
+#@ mp
+msgid "Next &raquo;"
+msgstr "Nästa &raquo;"
+
+#: marketpress-includes/marketpress-ms.php:1521
+#@ mp
+msgid "Shows a customizable global list of products from network MarketPress stores."
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1522
+#@ mp
+msgid "Global Product List"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1566
+#@ mp
+msgid "Global Products"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1569
+#: marketpress-includes/marketpress-ms.php:1659
+#: marketpress-includes/marketpress-ms.php:1712
+#@ mp
+#@ default
+msgid "Title:"
+msgstr "Titel"
+
+#: marketpress-includes/marketpress-ms.php:1570
+#@ mp
+msgid "Custom Text:"
+msgstr "Anpassad text:"
+
+#: marketpress-includes/marketpress-ms.php:1574
+#@ mp
+msgid "List Settings"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1576
+#@ mp
+msgid "Number of Products:"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1579
+#@ mp
+msgid "Order Products By:"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1581
+#@ mp
+msgid "Publish Date"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1582
+#@ mp
+msgid "Product Name"
+msgstr "Produktnamn"
+
+#: marketpress-includes/marketpress-ms.php:1583
+#@ mp
+msgid "Number of Sales"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1584
+#@ mp
+msgid "Product Price"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1585
+#@ mp
+msgid "Random"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1587
+#: marketpress-includes/marketpress-ms.php:1721
+#@ mp
+msgid "Descending"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1588
+#: marketpress-includes/marketpress-ms.php:1722
+#@ mp
+msgid "Ascending"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1591
+#@ mp
+msgid "Limit To Product Category:"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1592
+#: marketpress-includes/marketpress-ms.php:1596
+#@ mp
+msgid "Enter the Slug"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1595
+#@ mp
+msgid "Limit To Product Tag:"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1599
+#@ mp
+msgid "Display Settings"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1601
+#@ mp
+msgid "Show Thumbnail"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1602
+#@ mp
+msgid "Thumbnail Size:"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1606
+#@ mp
+msgid "Content To Show:"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1608
+#@ mp
+msgid "None"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1609
+#@ mp
+msgid "Excerpt"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1610
+#@ mp
+msgid "Content"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1616
+#@ mp
+msgid "Show Price"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1628
+#@ mp
+msgid "Global Product Tag Cloud"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1637
+#: marketpress-includes/marketpress-ms.php:1657
+#@ mp
+msgid "Global Product Tags"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1661
+#: marketpress-includes/marketpress-ms.php:1735
+#@ mp
+msgid "Show:"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1665
+#: marketpress-includes/marketpress-ms.php:1739
+#@ mp
+msgid "Both"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1675
+#@ default
+msgid "Displays a network-wide HTML list of product categories from network MarketPress stores."
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1676
+#@ mp
+msgid "Global Product Category List"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1685
+#: marketpress-includes/marketpress-ms.php:1709
+#@ mp
+msgid "Global Product Categories"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1716
+#@ mp
+msgid "Order Categories By:"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1718
+#: marketpress-includes/template-functions.php:1974
+#@ mp
+msgid "Name"
+msgstr "Namn"
+
+#: marketpress-includes/marketpress-ms.php:1719
+#@ mp
+msgid "Product Count"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1726
+#@ mp
+msgid "Number of Categories:"
+msgstr ""
+
+#: marketpress-includes/marketpress-ms.php:1732
+#@ default
+msgid "Show product counts"
+msgstr ""
+
+#: marketpress-includes/marketpress-shipping.php:152
+#@ mp
+msgid "Weight (Kilograms)"
+msgstr ""
+
+#: marketpress-includes/marketpress-shipping.php:164
+#@ mp
+msgid "Product Weight:"
+msgstr ""
+
+#: marketpress-includes/marketpress-shipping.php:165
+#: marketpress-includes/plugins-shipping/mp-fedex.php:865
+#: marketpress-includes/plugins-shipping/mp-ups.php:788
+#: marketpress-includes/plugins-shipping/mp-usps.php:981
+#@ mp
+msgid "Pounds"
+msgstr ""
+
+#: marketpress-includes/marketpress-shipping.php:166
+#@ mp
+msgid "Ounces"
+msgstr ""
+
+#: marketpress-includes/marketpress-shipping.php:269
+#@ mp
+msgid "Choose a Shipping Method:"
+msgstr ""
+
+#: marketpress-includes/marketpress-shipping.php:272
+#: marketpress-includes/marketpress-shipping.php:295
+#@ mp
+msgid "Shipping Method:"
+msgstr ""
+
+#: marketpress-includes/marketpress-shipping.php:362
+#@ mp
+msgid "Extra Shipping Cost"
+msgstr ""
+
+#: marketpress-includes/marketpress-stats.php:27
+#@ mp
+msgid "Store Statistics"
+msgstr ""
+
+#: marketpress-includes/marketpress-stats.php:27
+#@ mp
+msgid "MarketPress Statistics"
+msgstr ""
+
+#: marketpress-includes/marketpress-stats.php:44
+#, php-format
+#@ mp
+msgid "This Month (%s)"
+msgstr ""
+
+#: marketpress-includes/marketpress-stats.php:49
+#: marketpress-includes/marketpress-stats.php:69
+#: marketpress-includes/marketpress-stats.php:135
+#@ mp
+msgid "Orders"
+msgstr ""
+
+#: marketpress-includes/marketpress-stats.php:53
+#: marketpress-includes/marketpress-stats.php:73
+#@ mp
+msgid "Orders Total"
+msgstr ""
+
+#: marketpress-includes/marketpress-stats.php:57
+#: marketpress-includes/marketpress-stats.php:77
+#@ mp
+msgid "Average Order"
+msgstr ""
+
+#: marketpress-includes/marketpress-stats.php:64
+#, php-format
+#@ mp
+msgid "Last Month (%s)"
+msgstr ""
+
+#: marketpress-includes/marketpress-stats.php:90
+#@ mp
+msgid "Store Content"
+msgstr "Butiksinnehåll"
+
+#: marketpress-includes/marketpress-stats.php:99
+#@ mp
+msgid "Product"
+msgid_plural "Products"
+msgstr[0] "Produkt"
+msgstr[1] "Produkter"
+
+#: marketpress-includes/marketpress-stats.php:110
+#@ mp
+msgid "Product Category"
+msgid_plural "Product Categories"
+msgstr[0] "Produktkategori"
+msgstr[1] "Produktkategorier"
+
+#: marketpress-includes/marketpress-stats.php:122
+#@ default
+msgid "Product Tag"
+msgid_plural "Product Tags"
+msgstr[0] ""
+msgstr[1] ""
+
+#: marketpress-includes/marketpress-stats.php:141
+#@ mp
+msgid "Received (Awaiting Payment)"
+msgstr "Mottagen (Inväntar betalning)"
+
+#: marketpress-includes/marketpress-stats.php:152
+#@ mp
+msgid "Paid (Awaiting Shipping)"
+msgstr "Betald (Inväntar frakt)"
+
+#: marketpress-includes/marketpress-stats.php:163
+#@ mp
+msgid "Shipped"
+msgstr "Skickad"
+
+#: marketpress-includes/marketpress-stats.php:174
+#@ mp
+msgid "Closed"
+msgstr "Stängd"
+
+#: marketpress-includes/plugins-gateway/2checkout.php:46
+#: marketpress-includes/plugins-gateway/2checkout.php:47
+#: marketpress-includes/plugins-gateway/2checkout.php:403
+#@ mp
+msgid "2Checkout"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/2checkout.php:69
+#@ mp
+msgid "Your 2Checkout transaction has been canceled."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/2checkout.php:206
+#, php-format
+#@ mp
+msgid "Your payment via 2Checkout for this order totaling %s is not yet complete. Here is the latest status:"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/2checkout.php:213
+#, php-format
+#@ mp
+msgid "Your payment via 2Checkout for this order totaling %s is complete. The transaction number is <strong>%s</strong>."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/2checkout.php:234
+#@ mp
+msgid "The order has been received"
+msgstr "Beställningen är mottagen"
+
+#: marketpress-includes/plugins-gateway/2checkout.php:239
+#: marketpress-includes/plugins-gateway/cubepoints.php:139
+#: marketpress-includes/plugins-gateway/stripe.php:392
+#@ mp
+msgid "Paid"
+msgstr "Betald"
+
+#: marketpress-includes/plugins-gateway/2checkout.php:261
+#@ mp
+msgid "2Checkout Settings"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/2checkout.php:263
+#@ mp
+msgid "Resell your inventory via 2Checkout.com. This gateway requires that the setting in 2Checkout for \"Return Method\" inside Account -> Site Management be set to \"Header Redirect\"."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/2checkout.php:266
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:704
+#: marketpress-includes/plugins-gateway/google-checkout.php:284
+#: marketpress-includes/plugins-gateway/ideal.php:380
+#: marketpress-includes/plugins-gateway/payflow.php:717
+#@ mp
+msgid "Mode"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/2checkout.php:270
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:708
+#: marketpress-includes/plugins-gateway/eway.php:336
+#: marketpress-includes/plugins-gateway/payflow.php:721
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:374
+#: marketpress-includes/plugins-gateway/paypal-express.php:655
+#: marketpress-includes/plugins-gateway/paypal-express.php:1306
+#: marketpress-includes/plugins-shipping/mp-fedex.php:246
+#@ mp
+msgid "Sandbox"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/2checkout.php:271
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:709
+#: marketpress-includes/plugins-gateway/eway.php:337
+#: marketpress-includes/plugins-gateway/ideal.php:384
+#: marketpress-includes/plugins-gateway/payflow.php:722
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:375
+#: marketpress-includes/plugins-gateway/paypal-express.php:656
+#: marketpress-includes/plugins-gateway/paypal-express.php:1307
+#@ mp
+msgid "Live"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/2checkout.php:277
+#@ mp
+msgid "2Checkout Credentials"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/2checkout.php:279
+#, php-format
+#@ mp
+msgid "You must login to 2Checkout vendor dashboard to obtain the seller ID and secret word. <a target=\"_blank\" href=\"%s\">Instructions &raquo;</a>"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/2checkout.php:281
+#@ mp
+msgid "Seller ID"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/2checkout.php:286
+#@ mp
+msgid "Secret word"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/2checkout.php:293
+#@ mp
+msgid "2Checkout Currency"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/2checkout.php:295
+#: marketpress-includes/plugins-gateway/moneybookers.php:332
+#@ mp
+msgid "Selecting a currency other than that used for your store may cause problems at checkout."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:46
+#@ mp
+msgid "Authorize.net Checkout"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:47
+#: marketpress-includes/plugins-gateway/dibs.php:50
+#: marketpress-includes/plugins-gateway/eway.php:45
+#: marketpress-includes/plugins-gateway/eway.php:277
+#: marketpress-includes/plugins-gateway/google-checkout.php:437
+#: marketpress-includes/plugins-gateway/payflow.php:49
+#: marketpress-includes/plugins-gateway/stripe.php:45
+#@ mp
+msgid "Credit Card"
+msgstr "Kreditkort"
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:84
+#: marketpress-includes/plugins-gateway/dibs.php:85
+#: marketpress-includes/plugins-gateway/payflow.php:83
+#@ mp
+msgid "Your credit card transaction has been canceled."
+msgstr "Ditt kreditkortstransaktion har blivit avbruten"
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:156
+#: marketpress-includes/plugins-gateway/dibs.php:157
+#: marketpress-includes/plugins-gateway/payflow.php:155
+#@ mp
+msgid "Enter Your Billing Information:"
+msgstr "Fyll i dina faktureringsuppgifter:"
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:160
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:437
+#: marketpress-includes/plugins-gateway/dibs.php:161
+#: marketpress-includes/plugins-gateway/dibs.php:438
+#: marketpress-includes/plugins-gateway/payflow.php:159
+#: marketpress-includes/plugins-gateway/payflow.php:436
+#: marketpress-includes/template-functions.php:555
+#: marketpress-includes/template-functions.php:638
+#@ mp
+msgid "Email:"
+msgstr "Epost:"
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:166
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:441
+#: marketpress-includes/plugins-gateway/dibs.php:167
+#: marketpress-includes/plugins-gateway/dibs.php:442
+#: marketpress-includes/plugins-gateway/payflow.php:165
+#: marketpress-includes/plugins-gateway/payflow.php:440
+#: marketpress-includes/template-functions.php:562
+#: marketpress-includes/template-functions.php:642
+#: marketpress-includes/template-functions.php:1035
+#@ mp
+msgid "Full Name:"
+msgstr "Fullständigt namn:"
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:172
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:445
+#: marketpress-includes/plugins-gateway/dibs.php:173
+#: marketpress-includes/plugins-gateway/dibs.php:446
+#: marketpress-includes/plugins-gateway/payflow.php:171
+#: marketpress-includes/plugins-gateway/payflow.php:444
+#: marketpress-includes/template-functions.php:577
+#: marketpress-includes/template-functions.php:646
+#: marketpress-includes/template-functions.php:1040
+#@ mp
+msgid "Address:"
+msgstr "Adress:"
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:175
+#: marketpress-includes/plugins-gateway/dibs.php:176
+#: marketpress-includes/plugins-gateway/payflow.php:174
+#: marketpress-includes/template-functions.php:580
+#@ mp
+msgid "Street address, P.O. box, company name, c/o"
+msgstr "Postadress, box, företagsnamn, c/o"
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:180
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:451
+#: marketpress-includes/plugins-gateway/dibs.php:181
+#: marketpress-includes/plugins-gateway/dibs.php:452
+#: marketpress-includes/plugins-gateway/payflow.php:179
+#: marketpress-includes/plugins-gateway/payflow.php:450
+#: marketpress-includes/template-functions.php:584
+#: marketpress-includes/template-functions.php:652
+#: marketpress-includes/template-functions.php:1046
+#@ mp
+msgid "Address 2:"
+msgstr "Adress 2"
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:182
+#: marketpress-includes/plugins-gateway/dibs.php:183
+#: marketpress-includes/plugins-gateway/payflow.php:181
+#: marketpress-includes/template-functions.php:586
+#@ mp
+msgid "Apartment, suite, unit, building, floor, etc."
+msgstr "Lägenhetsnummer, trappa, byggnad, etc"
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:187
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:457
+#: marketpress-includes/plugins-gateway/dibs.php:188
+#: marketpress-includes/plugins-gateway/dibs.php:458
+#: marketpress-includes/plugins-gateway/payflow.php:186
+#: marketpress-includes/plugins-gateway/payflow.php:456
+#: marketpress-includes/template-functions.php:590
+#: marketpress-includes/template-functions.php:658
+#: marketpress-includes/template-functions.php:1052
+#@ mp
+msgid "City:"
+msgstr "Stad:"
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:193
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:463
+#: marketpress-includes/plugins-gateway/dibs.php:194
+#: marketpress-includes/plugins-gateway/dibs.php:464
+#: marketpress-includes/plugins-gateway/payflow.php:192
+#: marketpress-includes/plugins-gateway/payflow.php:462
+#: marketpress-includes/template-functions.php:595
+#: marketpress-includes/template-functions.php:664
+#: marketpress-includes/template-functions.php:1058
+#@ mp
+msgid "State/Province/Region:"
+msgstr "Stat/Provins/Region:"
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:199
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:469
+#: marketpress-includes/plugins-gateway/dibs.php:200
+#: marketpress-includes/plugins-gateway/dibs.php:470
+#: marketpress-includes/plugins-gateway/payflow.php:198
+#: marketpress-includes/plugins-gateway/payflow.php:468
+#: marketpress-includes/template-functions.php:600
+#: marketpress-includes/template-functions.php:670
+#: marketpress-includes/template-functions.php:1064
+#@ mp
+msgid "Postal/Zip Code:"
+msgstr "Postkod:"
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:205
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:473
+#: marketpress-includes/plugins-gateway/dibs.php:206
+#: marketpress-includes/plugins-gateway/dibs.php:474
+#: marketpress-includes/plugins-gateway/payflow.php:204
+#: marketpress-includes/plugins-gateway/payflow.php:472
+#: marketpress-includes/template-functions.php:567
+#: marketpress-includes/template-functions.php:675
+#: marketpress-includes/template-functions.php:1069
+#@ mp
+msgid "Country:"
+msgstr "Land:"
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:218
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:479
+#: marketpress-includes/plugins-gateway/dibs.php:219
+#: marketpress-includes/plugins-gateway/dibs.php:480
+#: marketpress-includes/plugins-gateway/payflow.php:217
+#: marketpress-includes/plugins-gateway/payflow.php:478
+#: marketpress-includes/template-functions.php:605
+#: marketpress-includes/template-functions.php:681
+#: marketpress-includes/template-functions.php:1075
+#@ mp
+msgid "Phone Number:"
+msgstr "Telefonnummer:"
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:223
+#: marketpress-includes/plugins-gateway/dibs.php:224
+#: marketpress-includes/plugins-gateway/payflow.php:222
+#@ mp
+msgid "Credit Card Number:"
+msgstr "Kreditkortsnummer:"
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:233
+#: marketpress-includes/plugins-gateway/dibs.php:234
+#: marketpress-includes/plugins-gateway/payflow.php:232
+#@ mp
+msgid "Expiration Date:"
+msgstr "Utgångsdatum:"
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:236
+#: marketpress-includes/plugins-gateway/dibs.php:237
+#: marketpress-includes/plugins-gateway/payflow.php:235
+#@ mp
+msgid "Month"
+msgstr "Månad"
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:240
+#: marketpress-includes/plugins-gateway/dibs.php:241
+#: marketpress-includes/plugins-gateway/payflow.php:239
+#@ mp
+msgid "Year"
+msgstr "År"
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:248
+#: marketpress-includes/plugins-gateway/dibs.php:249
+#: marketpress-includes/plugins-gateway/payflow.php:247
+#@ mp
+msgid "Security Code:"
+msgstr "Säkerhetskod:"
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:352
+#: marketpress-includes/plugins-gateway/dibs.php:353
+#: marketpress-includes/plugins-gateway/payflow.php:351
+#@ mp
+msgid "Please select your credit card expiration date."
+msgstr "Vänligen fyll i ditt utgångsdatumet för ditt kort."
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:356
+#: marketpress-includes/plugins-gateway/dibs.php:357
+#: marketpress-includes/plugins-gateway/payflow.php:355
+#@ mp
+msgid "Please enter your credit card security code"
+msgstr "Vänligen fyll i din säkerhetskod"
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:360
+#: marketpress-includes/plugins-gateway/dibs.php:361
+#: marketpress-includes/plugins-gateway/payflow.php:359
+#@ mp
+msgid "Please enter your credit card number"
+msgstr "Vänligen fyll i ditt kreditkortsnummer"
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:363
+#: marketpress-includes/plugins-gateway/dibs.php:364
+#: marketpress-includes/plugins-gateway/payflow.php:362
+#@ mp
+msgid "Please enter a valid credit card number"
+msgstr "Vänligen fyll i ett giltigt kreditkortsnummer"
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:372
+#: marketpress-includes/plugins-gateway/dibs.php:373
+#: marketpress-includes/plugins-gateway/payflow.php:371
+#@ mp
+msgid "Please enter a valid credit card security code"
+msgstr "Vänligen fyll i en giltig säkerhetskod"
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:432
+#: marketpress-includes/plugins-gateway/dibs.php:433
+#: marketpress-includes/plugins-gateway/payflow.php:431
+#: marketpress-includes/plugins-gateway/stripe.php:167
+#@ mp
+msgid "Billing Information:"
+msgstr "Faktureringsinformation:"
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:433
+#: marketpress-includes/plugins-gateway/dibs.php:434
+#: marketpress-includes/plugins-gateway/payflow.php:432
+#: marketpress-includes/plugins-gateway/stripe.php:168
+#@ mp
+msgid "&laquo; Edit"
+msgstr "&laquo; Redigera"
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:485
+#: marketpress-includes/plugins-gateway/dibs.php:486
+#: marketpress-includes/plugins-gateway/payflow.php:484
+#: marketpress-includes/plugins-gateway/stripe.php:172
+#@ mp
+msgid "Payment method:"
+msgstr "Betalmetod:"
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:635
+#: marketpress-includes/plugins-gateway/dibs.php:599
+#: marketpress-includes/plugins-gateway/payflow.php:631
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:199
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:483
+#: marketpress-includes/plugins-gateway/paypal-express.php:135
+#: marketpress-includes/plugins-gateway/paypal-express.php:376
+#: marketpress-includes/plugins-gateway/paypal-express.php:804
+#@ mp
+msgid "The payment has been completed, and the funds have been added successfully to your account balance."
+msgstr "Betalningen har mottagits och summan har dragits automatiskt från ditt konto."
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:650
+#: marketpress-includes/plugins-gateway/payflow.php:646
+#, php-format
+#@ mp
+msgid "There was a problem finalizing your purchase. %s Please <a href=\"%s\">go back and try again</a>."
+msgstr "Ett problem uppstod. %s Vänligen <a href=\"%s\">gå tillbaka och försök igen</a>."
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:671
+#: marketpress-includes/plugins-gateway/dibs.php:634
+#: marketpress-includes/plugins-gateway/payflow.php:667
+#, php-format
+#@ mp
+msgid "Your credit card payment for this order totaling %s is not yet complete. Here is the latest status:"
+msgstr "Din kreditkortsbetalning för denna order %s är ännu inte komplett. Här är den senaste statusen:"
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:678
+#: marketpress-includes/plugins-gateway/dibs.php:641
+#: marketpress-includes/plugins-gateway/payflow.php:674
+#, php-format
+#@ mp
+msgid "Your credit card payment for this order totaling %s is complete. The credit card transaction number is <strong>%s</strong>."
+msgstr "Din kreditkortsbetalning för denna order med summan %s är komplett. Din transaktionsnummer för kreditkortet är <strong>%s</strong>"
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:699
+#@ mp
+msgid "Authorize.net AIM Settings"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:701
+#@ mp
+msgid "Authorize.net AIM is a customizable payment processing solution that gives the merchant control over all the steps in processing a transaction. An SSL certificate is required to use this gateway. USD is the only currency supported by this gateway."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:715
+#: marketpress-includes/plugins-gateway/dibs.php:699
+#: marketpress-includes/plugins-gateway/payflow.php:728
+#@ mp
+msgid "Gateway Credentials"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:717
+#, php-format
+#@ mp
+msgid "You must login to Authorize.net merchant dashboard to obtain the API login ID and API transaction key. <a target=\"_blank\" href=\"%s\">Instructions &raquo;</a>"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:719
+#@ mp
+msgid "Login ID"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:724
+#@ mp
+msgid "Transaction Key"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:731
+#: marketpress-includes/plugins-gateway/dibs.php:747
+#: marketpress-includes/plugins-gateway/payflow.php:755
+#@ mp
+msgid "Advanced Settings"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:733
+#: marketpress-includes/plugins-gateway/dibs.php:749
+#: marketpress-includes/plugins-gateway/payflow.php:757
+#@ mp
+msgid "Optional settings to control advanced options"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:735
+#@ mp
+msgid "Authorize.net default is ','. Otherwise, get this from your credit card processor. If the transactions are not going through, this character is most likely wrong."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:735
+#@ mp
+msgid "Delimiter Character"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:741
+#@ mp
+msgid "Authorize.net default is blank. Otherwise, get this from your credit card processor. If the transactions are going through, but getting strange responses, this character is most likely wrong."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:741
+#@ mp
+msgid "Encapsulation Character"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:747
+#: marketpress-includes/plugins-gateway/dibs.php:753
+#: marketpress-includes/plugins-gateway/payflow.php:761
+#@ mp
+msgid "Email Customer (on success):"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:756
+#: marketpress-includes/plugins-gateway/dibs.php:762
+#: marketpress-includes/plugins-gateway/payflow.php:770
+#@ mp
+msgid "This text will appear as the header of the email receipt sent to the customer."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:756
+#: marketpress-includes/plugins-gateway/dibs.php:762
+#: marketpress-includes/plugins-gateway/payflow.php:770
+#@ mp
+msgid "Customer Receipt Email Header"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:757
+#: marketpress-includes/plugins-gateway/dibs.php:763
+#: marketpress-includes/plugins-gateway/payflow.php:771
+#@ mp
+msgid "Thanks for your payment!"
+msgstr "Tack för din betalning!"
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:762
+#: marketpress-includes/plugins-gateway/dibs.php:768
+#: marketpress-includes/plugins-gateway/payflow.php:776
+#@ mp
+msgid "This text will appear as the footer on the email receipt sent to the customer."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:762
+#: marketpress-includes/plugins-gateway/dibs.php:768
+#: marketpress-includes/plugins-gateway/payflow.php:776
+#@ mp
+msgid "Customer Receipt Email Footer"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:768
+#@ mp
+msgid "The payment gateway generated MD5 hash value that can be used to authenticate the transaction response. Not needed because responses are returned using an SSL connection."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:768
+#@ mp
+msgid "Security: MD5 Hash"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:774
+#@ mp
+msgid "Request a delimited response from the payment gateway."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:774
+#@ mp
+msgid "Delim Data:"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:782
+#@ mp
+msgid "Many other gateways have Authorize.net API emulators. To use one of these gateways input their API post url here."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:782
+#@ mp
+msgid "Custom API URL"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/authorizenet-aim.php:991
+#@ mp
+msgid "Authorize.net AIM Checkout"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/cubepoints.php:44
+#: marketpress-includes/plugins-gateway/cubepoints.php:45
+#: marketpress-includes/plugins-gateway/cubepoints.php:142
+#: marketpress-includes/plugins-gateway/cubepoints.php:202
+#: marketpress-includes/plugins-gateway/cubepoints.php:286
+#@ mp
+msgid "CubePoints"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/cubepoints.php:87
+#: marketpress-includes/plugins-gateway/cubepoints.php:189
+#@ mp
+msgid "Your current points: "
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/cubepoints.php:133
+#, php-format
+#@ mp
+msgid "%s Store Purchase"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/cubepoints.php:149
+#@ mp
+msgid "Sorry, but you do not appear to have enough points to complete this purchase!"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/cubepoints.php:209
+#@ mp
+msgid "CubePoints Settings"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/cubepoints.php:211
+#@ mp
+msgid "Accept CubePoints as payment(requires the CubePoints plugin)."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/cubepoints.php:214
+#: marketpress-includes/plugins-gateway/manual-payments.php:182
+#@ mp
+msgid "Method Name"
+msgstr "Metodnamn"
+
+#: marketpress-includes/plugins-gateway/cubepoints.php:216
+#: marketpress-includes/plugins-gateway/manual-payments.php:184
+#@ mp
+msgid "Enter a public name for this payment method that is displayed to users - No HTML"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/cubepoints.php:223
+#: marketpress-includes/plugins-gateway/manual-payments.php:191
+#@ mp
+msgid "User Instructions"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/cubepoints.php:225
+#@ mp
+msgid "These are the CubePoints instructions to display on the payments screen - HTML allowed"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/cubepoints.php:232
+#: marketpress-includes/plugins-gateway/manual-payments.php:200
+#@ mp
+msgid "Confirmation User Instructions"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/cubepoints.php:234
+#@ mp
+msgid "These are the CubePoints to display on the order confirmation screen. TOTAL will be replaced with the order total. - HTML allowed"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/cubepoints.php:241
+#: marketpress-includes/plugins-gateway/manual-payments.php:207
+#@ mp
+msgid "Order Confirmation Email"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/cubepoints.php:243
+#@ mp
+msgid "This is the email text to send to those who have made CubePoints checkouts. You should include your CubePoints instructions here. It overrides the default order checkout email. These codes will be replaced with order details: CUSTOMERNAME, ORDERID, ORDERINFO, SHIPPINGINFO, PAYMENTINFO, TOTAL, TRACKINGURL. No HTML allowed."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/dibs.php:49
+#: marketpress-includes/plugins-gateway/dibs.php:793
+#@ mp
+msgid "Dibs"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/dibs.php:682
+#@ mp
+msgid "Dibs Settings"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/dibs.php:685
+#@ mp
+msgid "Nordic market leading solution for secure Online Payments."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/dibs.php:688
+#: marketpress-includes/plugins-gateway/ideal.php:383
+#@ mp
+msgid "Testing"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/dibs.php:702
+#: marketpress-includes/plugins-gateway/payflow.php:731
+#@ mp
+msgid "USER"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/dibs.php:707
+#: marketpress-includes/plugins-gateway/payflow.php:747
+#@ mp
+msgid "PWD"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/dibs.php:712
+#@ mp
+msgid "MERCHANT"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/dibs.php:717
+#@ mp
+msgid "MD5 K1"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/dibs.php:722
+#@ mp
+msgid "MD5 K2"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/dibs.php:730
+#@ mp
+msgid "Dibs Currency"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:44
+#: marketpress-includes/plugins-gateway/eway.php:479
+#@ mp
+msgid "eWay Shared Payments"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:72
+#@ mp
+msgid "Your eWay transaction has been canceled."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:100
+#@ mp
+msgid "Checkout with eWay"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:131
+#: marketpress-includes/plugins-gateway/ideal.php:172
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:625
+#: marketpress-includes/plugins-gateway/paypal-express.php:991
+#, php-format
+#@ mp
+msgid "%s Store Purchase - Order ID: %s"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:200
+#: marketpress-includes/plugins-gateway/eway.php:268
+#@ mp
+msgid "There was a problem parsing the response from eWay. Please try again."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:208
+#, php-format
+#@ mp
+msgid "There was a problem setting up the transaction with eWay: %s"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:235
+#@ mp
+msgid "Please go back and try again."
+msgstr "Vänligen gå tillbaka och försök igen."
+
+#: marketpress-includes/plugins-gateway/eway.php:238
+#, php-format
+#@ mp
+msgid "Your payment via eWay for this order totaling %s is in progress. Here is the latest status:"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:245
+#, php-format
+#@ mp
+msgid "Your payment for this order totaling %s is complete. The transaction number is <strong>%s</strong>."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:273
+#: marketpress-includes/plugins-gateway/moneybookers.php:279
+#@ mp
+msgid "Received - The order has been received, awaiting payment confirmation."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:280
+#, php-format
+#@ mp
+msgid "Paid - The card has been processed - %s"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:286
+#, php-format
+#@ mp
+msgid "There was a problem with your credit card information: %s"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:303
+#@ mp
+msgid "eWay Shared Payments Settings"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:305
+#@ mp
+msgid "The Hosted Page is a webpage hosted on eWAY's side eliminating the need for merchants to capture, transmit or store credit card numbers. At the checkout time the merchant automatically redirects the customer to the Hosted Page where they would enter their details and have the transaction processed. Upon completion of the transaction the customer is redirected back to the MarketPress checkout confirmation page."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:308
+#@ mp
+msgid "eWay Currency"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:332
+#@ mp
+msgid "Gateway Mode"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:334
+#@ mp
+msgid "Note when testing in sandbox mode it will use the default eWay test API credentials. You must also test in AUD currency as that is what the sandbox account is in."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:334
+#@ mp
+msgid "It is important that you read and follow the testing instructions &raquo;"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:342
+#@ mp
+msgid "Live API Credentials"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:344
+#@ mp
+msgid "eWay Username"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:347
+#@ mp
+msgid "Customer ID"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:353
+#@ mp
+msgid "eWay Hosted Payment Page Language"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:373
+#@ mp
+msgid "Company Name"
+msgstr "Företagsnamn"
+
+#: marketpress-includes/plugins-gateway/eway.php:375
+#@ mp
+msgid "This will be displayed as the company the customer is purchasing from, including this is highly recommended."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:381
+#@ mp
+msgid "Page Title (optional)"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:383
+#: marketpress-includes/plugins-gateway/eway.php:392
+#@ mp
+msgid "This value is used to populate the browsers title bar at the top of the screen."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:390
+#@ mp
+msgid "Page Description (optional)"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:399
+#@ mp
+msgid "Page Footer (optional)"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:401
+#@ mp
+msgid "The page footer text can be customised and populated below the customer's order details. Useful for contact information."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:408
+#@ mp
+msgid "Company Logo (optional)"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:410
+#: marketpress-includes/plugins-gateway/eway.php:419
+#@ mp
+msgid "The url of the image can be hosted on your website and pass the secure https:// path of the image to be displayed at the top of the website. This is the second image block on the webpage and is restricted to 960px X 65px. A default secure image is used if none is supplied."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:417
+#@ mp
+msgid "Page Banner Image (optional)"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/eway.php:467
+#@ mp
+msgid "There was a problem connecting to eWay. Please try again."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/google-checkout.php:55
+#: marketpress-includes/plugins-gateway/google-checkout.php:56
+#: marketpress-includes/plugins-gateway/google-checkout.php:484
+#@ mp
+msgid "Google Checkout"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/google-checkout.php:108
+#@ mp
+msgid "Your Google Checkout transaction has been canceled."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/google-checkout.php:161
+#@ mp
+msgid "Order ID: "
+msgstr "OrderID:"
+
+#: marketpress-includes/plugins-gateway/google-checkout.php:162
+#, php-format
+#@ mp
+msgid "Cart Subtotal for %d Items"
+msgstr "Delsumma för %d artiklar"
+
+#: marketpress-includes/plugins-gateway/google-checkout.php:176
+#@ mp
+msgid "Standard Shipping"
+msgstr "Standard frakt"
+
+#: marketpress-includes/plugins-gateway/google-checkout.php:204
+#, php-format
+#@ mp
+msgid "There was a problem setting up your purchase with Google Checkout. Please try again or <a href=\"%s\">select a different payment method</a>.<br/>%s"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/google-checkout.php:238
+#@ mp
+msgid "Pay via Google Checkout"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/google-checkout.php:279
+#@ mp
+msgid "Google Checkout Settings"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/google-checkout.php:281
+#@ mp
+msgid "Resell your inventory via Google Checkout"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/google-checkout.php:302
+#@ mp
+msgid "Google Checkout Credentials"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/google-checkout.php:304
+#, php-format
+#@ mp
+msgid "You must login to Google Checkout to obtain your merchant ID and merchant key. <a target=\"_blank\" href=\"%s\">Instructions &raquo;</a>"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/google-checkout.php:306
+#: marketpress-includes/plugins-gateway/ideal.php:368
+#@ mp
+msgid "Merchant ID"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/google-checkout.php:311
+#@ mp
+msgid "Merchant Key"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/google-checkout.php:318
+#@ mp
+msgid "Google Checkout API callback URL"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/google-checkout.php:321
+#@ mp
+msgid "You must setup your API callback URL in Google Checkout to be able to process orders."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/google-checkout.php:323
+#@ mp
+msgid "Login to the Integration page of your Merchant Center <a target=\"_blank\" href=\"https://sandbox.google.com/checkout/sell/settings?section=Integration\">sandbox</a> or <a target=\"_blank\" href=\"https://checkout.google.com/sell/settings?section=Integration\">production</a> account. (You must set it in each)"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/google-checkout.php:324
+#, php-format
+#@ mp
+msgid "Enter the URL for the web service in the <b>API callback URL</b> field: <strong>%s</strong>"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/google-checkout.php:325
+#@ mp
+msgid "Indicate the format as \"<b>Notification as Serial Number</b>\" and use <b>API Version 2.0</b>."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/google-checkout.php:326
+#@ mp
+msgid "Save your settings."
+msgstr "Spara inställningar."
+
+#: marketpress-includes/plugins-gateway/google-checkout.php:330
+#@ mp
+msgid "Google Checkout Currency"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/google-checkout.php:389
+#@ mp
+msgid "Reviewing - Google Checkout is reviewing the customer and order to see if it can be charged."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/google-checkout.php:394
+#@ mp
+msgid "Chargeable - You can now charge the order in your Google Checkout account."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/google-checkout.php:399
+#@ mp
+msgid "Processing - Google Checkout is processing your charge request."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/google-checkout.php:404
+#@ mp
+msgid "Charged - The payment has been completed, and the funds have been added successfully to your Google Checkout account balance."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/google-checkout.php:409
+#@ mp
+msgid "Charging - The credit card is being charged."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/google-checkout.php:414
+#@ mp
+msgid "Cancelled - The order was cancelled."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/ideal.php:42
+#: marketpress-includes/plugins-gateway/ideal.php:411
+#@ mp
+msgid "iDEAL (beta)"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/ideal.php:43
+#: marketpress-includes/plugins-gateway/ideal.php:287
+#@ mp
+msgid "iDEAL"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/ideal.php:64
+#@ mp
+msgid "Your iDEAL transaction has been canceled."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/ideal.php:112
+#@ mp
+msgid "Coupon"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/ideal.php:132
+#: marketpress-includes/template-functions.php:2121
+#@ mp
+msgid "Shipping"
+msgstr "Frakt"
+
+#: marketpress-includes/plugins-gateway/ideal.php:145
+#@ mp
+msgid "Tax"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/ideal.php:284
+#: marketpress-includes/plugins-gateway/manual-payments.php:124
+#@ mp
+msgid "Invoiced"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/ideal.php:349
+#@ mp
+msgid "iDEAL Settings"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/ideal.php:353
+#@ mp
+msgid "To make it easier to pay for online products and services, the Dutch banking community has developed the iDEAL online payment method. iDEAL allows online payments to be made using online banking in EUR only."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/ideal.php:356
+#@ mp
+msgid "Bank"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/ideal.php:359
+#@ mp
+msgid "ING Bank"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/ideal.php:360
+#@ mp
+msgid "Rabobank"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/ideal.php:361
+#@ mp
+msgid "Friesland Bank"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/ideal.php:362
+#@ mp
+msgid "ABN Amro Bank"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/ideal.php:363
+#@ mp
+msgid "iDEAL Simulator (for testing)"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/ideal.php:374
+#@ mp
+msgid "iDEAL Secret Key"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/manual-payments.php:42
+#: marketpress-includes/plugins-gateway/manual-payments.php:257
+#@ mp
+msgid "Manual Payments"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/manual-payments.php:43
+#: marketpress-includes/plugins-gateway/manual-payments.php:186
+#@ mp
+msgid "Manual Payment"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/manual-payments.php:127
+#@ mp
+msgid "Manual/Invoice"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/manual-payments.php:177
+#@ mp
+msgid "Manual Payments Settings"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/manual-payments.php:179
+#@ mp
+msgid "Record payments manually, such as by Cash, Check, or EFT."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/manual-payments.php:193
+#@ mp
+msgid "These are the manual payment instructions to display on the payments screen - HTML allowed"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/manual-payments.php:202
+#@ mp
+msgid "These are the manual payment instructions to display on the order confirmation screen. TOTAL will be replaced with the order total. - HTML allowed"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/manual-payments.php:209
+#@ mp
+msgid "This is the email text to send to those who have made manual payment checkouts. You should include your manual payment instructions here. It overrides the default order checkout email. These codes will be replaced with order details: CUSTOMERNAME, ORDERID, ORDERINFO, SHIPPINGINFO, PAYMENTINFO, TOTAL, TRACKINGURL. No HTML allowed."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:43
+#: marketpress-includes/plugins-gateway/moneybookers.php:44
+#: marketpress-includes/plugins-gateway/moneybookers.php:554
+#@ mp
+msgid "Moneybookers"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:66
+#@ mp
+msgid "Your Moneybookers transaction has been canceled."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:94
+#@ mp
+msgid "Checkout with Moneybookers"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:123
+#@ mp
+msgid "Complete Checkout"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:158
+#@ mp
+msgid "Order ID:"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:164
+#, php-format
+#@ mp
+msgid "Cart Subtotal for %d Items:"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:170
+#: marketpress-includes/template-functions.php:1015
+#@ mp
+msgid "Coupon Discount:"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:181
+#@ mp
+msgid "Shipping & Handling:"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:189
+#: marketpress-includes/plugins-gateway/moneybookers.php:193
+#: marketpress-includes/template-functions.php:297
+#: marketpress-includes/template-functions.php:407
+#: marketpress-includes/template-functions.php:1025
+#@ mp
+msgid "Taxes:"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:236
+#, php-format
+#@ mp
+msgid "Your payment via Moneybookers for this order totaling %s is in progress. Here is the latest status:"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:243
+#, php-format
+#@ mp
+msgid "Your payment via Moneybookers for this order totaling %s is complete. The transaction number is <strong>%s</strong>."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:283
+#: marketpress-includes/plugins-gateway/moneybookers.php:476
+#@ mp
+msgid "Moneybookers balance, Credit Card, or Instant Transfer"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:311
+#@ mp
+msgid "Moneybookers Settings"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:313
+#@ mp
+msgid "Resell your inventory via Moneybookers.com."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:316
+#@ mp
+msgid "Moneybookers Email"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:318
+#, php-format
+#@ mp
+msgid "You must use your valid Moneybookers merchant email. <a target=\"_blank\" href=\"%s\">Instructions &raquo;</a>"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:323
+#@ mp
+msgid "Secret Word"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:325
+#, php-format
+#@ mp
+msgid "The secret word must match the word submitted in the \"Merchant Tools\" section of your <a target=\"_blank\" href=\"%s\">Moneybookers account</a>."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:330
+#@ mp
+msgid "Currency"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:386
+#@ mp
+msgid "Language"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:417
+#@ mp
+msgid "Merchant Name (optional)"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:419
+#@ mp
+msgid "The name of this store, which will be shown on the gateway. If no value is submitted, the account email will be shown as the recipient of the payment."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:425
+#@ mp
+msgid "Logo Image (optional)"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:427
+#@ mp
+msgid "The URL of the logo which you would like to appear at the top of the payment form. The logo must be accessible via HTTPS otherwise it will not be shown. For best integration results we recommend that you use a logo with dimensions up to 200px in width and 50px in height."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:434
+#@ mp
+msgid "Confirmation Note (optional)"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:436
+#@ mp
+msgid "Shown to the customer on the confirmation screen - the end step of the process - a note, confirmation number, or any other message. Line breaks &lt;br&gt; may be used for longer messages."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:486
+#@ mp
+msgid "Processed - The payment has been completed, and the funds have been added successfully to your Moneybookers account balance."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:492
+#@ mp
+msgid "Pending - The payment is pending. It can take 2-3 days for bank transfers to complete."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:498
+#@ mp
+msgid "Cancelled - The payment was cancelled manually by the sender in their online account history or was auto-cancelled after 14 days pending."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:504
+#@ mp
+msgid "Failed - The Credit Card or Direct Debit transaction was declined."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/moneybookers.php:510
+#@ mp
+msgid "Chargeback - A payment was reversed due to a chargeback. The funds have been removed from your account balance and returned to the buyer."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/payflow.php:48
+#: marketpress-includes/plugins-gateway/payflow.php:1016
+#@ mp
+msgid "PayPal Payflow Pro"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/payflow.php:711
+#@ mp
+msgid "PayPal Payflow Settings"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/payflow.php:714
+#@ mp
+msgid "Use Payflow payment gateway to accept online payments using your Internet merchant account and processing network. PayPal Payflow Pro is a customizable payment processing solution that gives the merchant control over all the steps in processing a transaction. An SSL certificate is required to use this gateway. USD is the only currency supported by this gateway."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/payflow.php:736
+#@ mp
+msgid "VENDOR"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/payflow.php:741
+#@ mp
+msgid "PARTNER"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:47
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:730
+#@ mp
+msgid "PayPal Chained Payments"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:49
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:51
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:732
+#: marketpress-includes/plugins-gateway/paypal-express.php:53
+#@ mp
+msgid "PayPal"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:92
+#: marketpress-includes/plugins-gateway/paypal-express.php:93
+#@ mp
+msgid "Your PayPal transaction has been canceled."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:163
+#: marketpress-includes/plugins-gateway/paypal-express.php:252
+#@ mp
+msgid "There was a problem connecting to PayPal to setup your purchase. Please try again."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:183
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:466
+#: marketpress-includes/plugins-gateway/paypal-express.php:345
+#@ mp
+msgid "PayPal balance, Credit Card, or Instant Transfer"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:193
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:476
+#: marketpress-includes/plugins-gateway/paypal-express.php:127
+#: marketpress-includes/plugins-gateway/paypal-express.php:368
+#: marketpress-includes/plugins-gateway/paypal-express.php:794
+#@ mp
+msgid "The payment has been partially refunded."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:205
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:489
+#@ mp
+msgid "The transaction is in progress."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:211
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:495
+#: marketpress-includes/plugins-gateway/paypal-express.php:156
+#: marketpress-includes/plugins-gateway/paypal-express.php:397
+#: marketpress-includes/plugins-gateway/paypal-express.php:828
+#@ mp
+msgid "You refunded the payment."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:217
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:501
+#@ mp
+msgid "The transaction was rejected by the receiver (you)."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:224
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:508
+#@ mp
+msgid "The payment is pending because your customer did not include a confirmed shipping address and your Payment Receiving Preferences is set such that you want to manually accept or deny each of these payments. To change your preference, go to the Preferences section of your Profile."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:225
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:509
+#: marketpress-includes/plugins-gateway/paypal-express.php:167
+#: marketpress-includes/plugins-gateway/paypal-express.php:408
+#: marketpress-includes/plugins-gateway/paypal-express.php:841
+#@ mp
+msgid "The payment is pending because it was made by an eCheck that has not yet cleared."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:226
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:510
+#: marketpress-includes/plugins-gateway/paypal-express.php:168
+#: marketpress-includes/plugins-gateway/paypal-express.php:409
+#: marketpress-includes/plugins-gateway/paypal-express.php:842
+#@ mp
+msgid "The payment is pending because you hold a non-U.S. account and do not have a withdrawal mechanism. You must manually accept or deny this payment from your Account Overview."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:227
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:511
+#: marketpress-includes/plugins-gateway/paypal-express.php:169
+#: marketpress-includes/plugins-gateway/paypal-express.php:410
+#: marketpress-includes/plugins-gateway/paypal-express.php:843
+#@ mp
+msgid "You do not have a balance in the currency sent, and you do not have your Payment Receiving Preferences set to automatically convert and accept this payment. You must manually accept or deny this payment."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:228
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:512
+#: marketpress-includes/plugins-gateway/paypal-express.php:171
+#: marketpress-includes/plugins-gateway/paypal-express.php:412
+#: marketpress-includes/plugins-gateway/paypal-express.php:845
+#@ mp
+msgid "The payment is pending while it is being reviewed by PayPal for risk."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:229
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:513
+#: marketpress-includes/plugins-gateway/paypal-express.php:172
+#: marketpress-includes/plugins-gateway/paypal-express.php:413
+#: marketpress-includes/plugins-gateway/paypal-express.php:846
+#@ mp
+msgid "The payment is pending because it was made to an email address that is not yet registered or confirmed."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:230
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:514
+#: marketpress-includes/plugins-gateway/paypal-express.php:173
+#: marketpress-includes/plugins-gateway/paypal-express.php:414
+#: marketpress-includes/plugins-gateway/paypal-express.php:847
+#@ mp
+msgid "The payment is pending because it was made via credit card and you must upgrade your account to Business or Premier status in order to receive the funds. It can also mean that you have reached the monthly limit for transactions on your account."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:231
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:515
+#: marketpress-includes/plugins-gateway/paypal-express.php:174
+#: marketpress-includes/plugins-gateway/paypal-express.php:415
+#: marketpress-includes/plugins-gateway/paypal-express.php:848
+#@ mp
+msgid "The payment is pending because you are not yet verified. You must verify your account before you can accept this payment."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:232
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:516
+#: marketpress-includes/plugins-gateway/paypal-express.php:175
+#: marketpress-includes/plugins-gateway/paypal-express.php:416
+#: marketpress-includes/plugins-gateway/paypal-express.php:849
+#@ mp
+msgid "The payment is pending for an unknown reason. For more information, contact PayPal customer service."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:234
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:518
+#: marketpress-includes/plugins-gateway/paypal-express.php:178
+#: marketpress-includes/plugins-gateway/paypal-express.php:419
+#: marketpress-includes/plugins-gateway/paypal-express.php:852
+#@ mp
+msgid "The payment is pending."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:264
+#, php-format
+#@ mp
+msgid "Sorry, your order was not completed. Please <a href=\"%s\">go back and try again</a>."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:274
+#, php-format
+#@ mp
+msgid "There was a problem connecting to PayPal to check the status of your purchase. Please <a href=\"%s\">check the status of your order here &raquo;</a>"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:303
+#: marketpress-includes/plugins-gateway/paypal-express.php:497
+#, php-format
+#@ mp
+msgid "Your PayPal payment for this order totaling %s is not yet complete. Here is the latest status:"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:310
+#: marketpress-includes/plugins-gateway/paypal-express.php:504
+#, php-format
+#@ mp
+msgid "Your PayPal payment for this order totaling %s is complete. The PayPal transaction number is <strong>%s</strong>."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:326
+#@ mp
+msgid "PayPal Settings"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:331
+#: marketpress-includes/plugins-gateway/paypal-express.php:612
+#: marketpress-includes/plugins-gateway/paypal-express.php:1264
+#@ mp
+msgid "Paypal Currency"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:371
+#: marketpress-includes/plugins-gateway/paypal-express.php:652
+#: marketpress-includes/plugins-gateway/paypal-express.php:1303
+#@ mp
+msgid "PayPal Mode"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:380
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:772
+#@ mp
+msgid "PayPal Email Address"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:382
+#@ mp
+msgid "Please enter your PayPal email address or business id. If testing use your sandbox PayPal Email."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:456
+#: marketpress-includes/plugins-gateway/paypal-express.php:766
+#@ mp
+msgid "There was a problem verifying the IPN string with PayPal. Please try again."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:698
+#: marketpress-includes/plugins-gateway/paypal-express.php:1114
+#@ mp
+msgid "There was a problem connecting to PayPal. Please try again."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:757
+#@ mp
+msgid "Please be aware that we will deduct a ?% fee from the total of each transaction in addition to any fees PayPal may charge you. If for any reason you need to refund a customer for an order, please contact us with a screenshot of the refund receipt in your PayPal history as well as the Transaction ID of our fee deduction so we can issue you a refund. Thank you!"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:760
+#@ mp
+msgid "PayPal Chained Payments Settings"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:762
+#@ mp
+msgid "Using PayPal Chained Payments allows you as the multisite network owner to collect a predefined fee or percentage of all sales on network MarketPress stores! This is invisible to the customers who purchase items in a store, and all PayPal fees will be charged to the store owner. To use this option you must create API credentials, and you should make all other gateways unavailable or limited above."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:765
+#@ mp
+msgid "Fees To Collect"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:767
+#@ mp
+msgid "Enter a percentage of all store sales to collect as a fee. Decimals allowed."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:774
+#@ mp
+msgid "Please enter your PayPal email address or business id you want to recieve fees at."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:779
+#: marketpress-includes/plugins-gateway/paypal-express.php:667
+#: marketpress-includes/plugins-gateway/paypal-express.php:1312
+#@ mp
+msgid "PayPal API Credentials"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:781
+#@ mp
+msgid "You must login to PayPal and create an API signature to get your credentials. <a target=\"_blank\" href=\"https://cms.paypal.com/us/cgi-bin/?cmd=_render-content&content_ID=developer/e_howto_api_NVPAPIBasics#id084DN0AK0HS\">Instructions &raquo;</a>"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:782
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:803
+#: marketpress-includes/plugins-gateway/paypal-express.php:670
+#: marketpress-includes/plugins-gateway/paypal-express.php:1315
+#@ mp
+msgid "API Username"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:785
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:806
+#: marketpress-includes/plugins-gateway/paypal-express.php:673
+#: marketpress-includes/plugins-gateway/paypal-express.php:1318
+#@ mp
+msgid "API Password"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:788
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:809
+#: marketpress-includes/plugins-gateway/paypal-express.php:676
+#: marketpress-includes/plugins-gateway/paypal-express.php:1321
+#@ mp
+msgid "Signature"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:791
+#@ mp
+msgid "You must register this application with PayPal using your business account login to get an Application ID that will work with your API credentials. A bit of a hassle, but worth it! In the near future we will be looking for ways to simplify this process. <a target=\"_blank\" href=\"https://appreview.x.com/create-appvetting-app!input.jspa\">Register then submit your application</a> while logged in to the developer portal.</a> Note that you do not need an Application ID for testing in sandbox mode. <a target=\"_blank\" href=\"https://www.x.com/community/ppx/apps101/go-live\">More Information &raquo;</a>"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:792
+#@ mp
+msgid "View an example form &raquo;"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:794
+#@ mp
+msgid "Application ID"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:800
+#@ mp
+msgid "PayPal Sandbox API Credentials"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:802
+#@ mp
+msgid "This is neccessary in case you or users want to test checkouts on their stores."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:815
+#@ mp
+msgid "Gateway Settings Page Message"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-chained-payments.php:817
+#@ mp
+msgid "This message is displayed at the top of the gateway settings page to store admins. It's a good place to inform them of your fees or put any sales messages. Optional, HTML allowed."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:52
+#: marketpress-includes/plugins-gateway/paypal-express.php:1153
+#@ mp
+msgid "PayPal Express Checkout"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:111
+#: marketpress-includes/plugins-gateway/paypal-express.php:352
+#: marketpress-includes/plugins-gateway/paypal-express.php:774
+#@ mp
+msgid "A reversal has been canceled; for example, when you win a dispute and the funds for the reversal have been returned to you."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:115
+#: marketpress-includes/plugins-gateway/paypal-express.php:356
+#: marketpress-includes/plugins-gateway/paypal-express.php:779
+#@ mp
+msgid "The authorization period for this payment has been reached."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:119
+#: marketpress-includes/plugins-gateway/paypal-express.php:360
+#: marketpress-includes/plugins-gateway/paypal-express.php:784
+#@ mp
+msgid "An authorization for this transaction has been voided."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:123
+#: marketpress-includes/plugins-gateway/paypal-express.php:364
+#: marketpress-includes/plugins-gateway/paypal-express.php:789
+#@ mp
+msgid "The payment has failed. This happens only if the payment was made from your customer's bank account."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:131
+#: marketpress-includes/plugins-gateway/paypal-express.php:372
+#: marketpress-includes/plugins-gateway/paypal-express.php:799
+#@ mp
+msgid "The transaction has not terminated, e.g. an authorization may be awaiting completion."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:139
+#: marketpress-includes/plugins-gateway/paypal-express.php:380
+#: marketpress-includes/plugins-gateway/paypal-express.php:809
+#@ mp
+msgid "A payment has been accepted."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:143
+#: marketpress-includes/plugins-gateway/paypal-express.php:384
+#: marketpress-includes/plugins-gateway/paypal-express.php:814
+#@ mp
+msgid "A payment was reversed due to a chargeback or other type of reversal. The funds have been removed from your account balance and returned to the buyer:"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:146
+#: marketpress-includes/plugins-gateway/paypal-express.php:387
+#: marketpress-includes/plugins-gateway/paypal-express.php:817
+#@ mp
+msgid "A reversal has occurred on this transaction due to a chargeback by your customer."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:147
+#: marketpress-includes/plugins-gateway/paypal-express.php:388
+#: marketpress-includes/plugins-gateway/paypal-express.php:818
+#@ mp
+msgid "A reversal has occurred on this transaction due to your customer triggering a money-back guarantee."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:148
+#: marketpress-includes/plugins-gateway/paypal-express.php:389
+#: marketpress-includes/plugins-gateway/paypal-express.php:819
+#@ mp
+msgid "A reversal has occurred on this transaction due to a complaint about the transaction from your customer."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:149
+#: marketpress-includes/plugins-gateway/paypal-express.php:390
+#: marketpress-includes/plugins-gateway/paypal-express.php:820
+#@ mp
+msgid "A reversal has occurred on this transaction because you have given the customer a refund."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:150
+#: marketpress-includes/plugins-gateway/paypal-express.php:391
+#: marketpress-includes/plugins-gateway/paypal-express.php:821
+#@ mp
+msgid "A reversal has occurred on this transaction due to an unknown reason."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:160
+#: marketpress-includes/plugins-gateway/paypal-express.php:401
+#: marketpress-includes/plugins-gateway/paypal-express.php:833
+#@ mp
+msgid "You denied the payment when it was marked as pending."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:165
+#: marketpress-includes/plugins-gateway/paypal-express.php:406
+#: marketpress-includes/plugins-gateway/paypal-express.php:839
+#@ mp
+msgid "The payment is pending because your customer did not include a confirmed shipping address and your Payment Receiving Preferences is set such that you want to manually accept or deny each of these payments. To change your preference, go to the Preferences  section of your Profile."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:166
+#: marketpress-includes/plugins-gateway/paypal-express.php:407
+#: marketpress-includes/plugins-gateway/paypal-express.php:840
+#@ mp
+msgid "The payment is pending because it has been authorized but not settled. You must capture the funds first."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:170
+#: marketpress-includes/plugins-gateway/paypal-express.php:411
+#: marketpress-includes/plugins-gateway/paypal-express.php:844
+#@ mp
+msgid "The payment is pending because it is part of an order that has been authorized but not settled."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:292
+#, php-format
+#@ mp
+msgid "Please confirm your final payment for this order totaling %s. It will be made via your \"%s\" PayPal account."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:300
+#, php-format
+#@ mp
+msgid "There was a problem with your PayPal transaction. Please <a href=\"%s\">go back and try again</a>."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:304
+#: marketpress-includes/template-functions.php:740
+#, php-format
+#@ mp
+msgid "Whoops, looks like you skipped a step! Please <a href=\"%s\">go back and try again</a>."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:345
+#@ mp
+msgid "eCheck"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:459
+#: marketpress-includes/plugins-gateway/paypal-express.php:462
+#, php-format
+#@ mp
+msgid "There was a problem finalizing your purchase with PayPal. Please <a href=\"%s\">go back and try again</a>."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:493
+#, php-format
+#@ mp
+msgid "Your order(s) for %s store(s) totaling %s were successful."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:568
+#@ mp
+msgid "PayPal Express Checkout Settings"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:570
+#@ mp
+msgid "Express Checkout is PayPal's premier checkout solution, which streamlines the checkout process for buyers and keeps them on your site after making a purchase. Unlike PayPal Pro, there are no additional fees to use Express Checkout, though you may need to do a free upgrade to a business account. <a target=\"_blank\" href=\"https://cms.paypal.com/us/cgi-bin/?&cmd=_render-content&content_ID=developer/e_howto_api_ECGettingStarted\">More Info &raquo;</a>"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:573
+#: marketpress-includes/plugins-gateway/paypal-express.php:1229
+#@ mp
+msgid "PayPal Site"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:661
+#@ mp
+msgid "PayPal Merchant E-mail"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:669
+#: marketpress-includes/plugins-gateway/paypal-express.php:1314
+#@ mp
+msgid "You must login to PayPal and create an API signature to get your credentials. <a target=\"_blank\" href=\"https://cms.paypal.com/us/cgi-bin/?cmd=_render-content&content_ID=developer/e_howto_api_ECAPICredentials\">Instructions &raquo;</a>"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:682
+#: marketpress-includes/plugins-gateway/paypal-express.php:1327
+#@ mp
+msgid "PayPal Header Image (optional)"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:684
+#: marketpress-includes/plugins-gateway/paypal-express.php:1329
+#@ mp
+msgid "URL for an image you want to appear at the top left of the payment page. The image has a maximum size of 750 pixels wide by 90 pixels high. PayPal recommends that you provide an image that is stored on a secure (https) server. If you do not specify an image, the business name is displayed."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:691
+#: marketpress-includes/plugins-gateway/paypal-express.php:1336
+#@ mp
+msgid "PayPal Header Border Color (optional)"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:693
+#: marketpress-includes/plugins-gateway/paypal-express.php:1338
+#@ mp
+msgid "Sets the border color around the header of the payment page. The border is a 2-pixel perimeter around the header space, which is 750 pixels wide by 90 pixels high. By default, the color is black."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:700
+#: marketpress-includes/plugins-gateway/paypal-express.php:1345
+#@ mp
+msgid "PayPal Header Background Color (optional)"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:702
+#: marketpress-includes/plugins-gateway/paypal-express.php:1347
+#@ mp
+msgid "Sets the background color for the header of the payment page. By default, the color is white."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:709
+#: marketpress-includes/plugins-gateway/paypal-express.php:1354
+#@ mp
+msgid "PayPal Page Background Color (optional)"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:711
+#: marketpress-includes/plugins-gateway/paypal-express.php:1356
+#@ mp
+msgid "Sets the background color for the payment page. By default, the color is white."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:963
+#, php-format
+#@ default
+msgid "%s Coupon discount"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:1224
+#@ mp
+msgid "PayPal Express Checkout Global Cart Settings"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/paypal-express.php:1226
+#@ mp
+msgid "Express Checkout is PayPal's premier checkout solution, which streamlines the checkout process for buyers and keeps them on your site after making a purchase. Unlike PayPal Pro, there are no additional fees to use Express Checkout, though you may need to do a free upgrade to a business account. This gateway allows carts from up to 10 stores to checkout at once using parallel payments. <a target=\"_blank\" href=\"https://cms.paypal.com/us/cgi-bin/?&cmd=_render-content&content_ID=developer/e_howto_api_ECGettingStarted\">More Info &raquo;</a>"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/stripe.php:44
+#: marketpress-includes/plugins-gateway/stripe.php:284
+#: marketpress-includes/plugins-gateway/stripe.php:417
+#@ mp
+msgid "Stripe"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/stripe.php:67
+#@ mp
+msgid "Please enter the full Cardholder Name."
+msgstr "Vänligen ange kortägarens namn."
+
+#: marketpress-includes/plugins-gateway/stripe.php:68
+#@ mp
+msgid "Please enter a valid Credit Card Number."
+msgstr "Vänligen ange ett giltigt kreditkortsnummer"
+
+#: marketpress-includes/plugins-gateway/stripe.php:69
+#@ mp
+msgid "Please choose a valid expiration date."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/stripe.php:70
+#@ mp
+msgid "Please enter a valid card security code. This is the 3 digits on the signature panel, or 4 digits on the front of Amex cards."
+msgstr "Vänligen ange en giltig säkerhetskod."
+
+#: marketpress-includes/plugins-gateway/stripe.php:93
+#@ mp
+msgid "Enter Your Credit Card Information:"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/stripe.php:97
+#@ mp
+msgid "Cardholder Name:"
+msgstr "Kortägarens namn:"
+
+#: marketpress-includes/plugins-gateway/stripe.php:102
+#@ mp
+msgid "Card Number"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/stripe.php:110
+#@ mp
+msgid "Expiration:"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/stripe.php:124
+#@ mp
+msgid "CVC:"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/stripe.php:131
+#@ psts
+msgid "Processing..."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/stripe.php:148
+#: marketpress-includes/plugins-gateway/stripe.php:339
+#@ mp
+msgid "The Stripe Token was not generated correctly. Please go back and try again."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/stripe.php:160
+#, php-format
+#@ mp
+msgid "%s. Please go back and try again."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/stripe.php:173
+#, php-format
+#@ mp
+msgid "Your <strong>%1$s Card</strong> ending in <strong>%2$s</strong>. Expires <strong>%3$s</strong>"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/stripe.php:244
+#@ mp
+msgid "The Stripe Token was not generated correctly. Please try again."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/stripe.php:271
+#, php-format
+#@ mp
+msgid "Your payment for this order totaling %s is complete."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/stripe.php:284
+#@ mp
+msgid "Stripe makes it easy to start accepting credit cards directly on your site with full PCI compliance"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/stripe.php:286
+#@ mp
+msgid "Accept Visa, MasterCard, American Express, Discover, JCB, and Diners Club cards directly on your site. You don't need a merchant account or gateway. Stripe handles everything, including storing cards, subscriptions, and direct payouts to your bank account. Credit cards go directly to Stripe's secure environment, and never hit your servers so you can avoid most PCI requirements."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/stripe.php:286
+#: marketpress-includes/plugins-gateway/stripe.php:291
+#@ mp
+msgid "More Info &raquo;"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/stripe.php:289
+#@ mp
+msgid "Stripe Mode"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/stripe.php:291
+#@ mp
+msgid "When in live mode Stripe recommends you have an SSL certificate setup for the site where the checkout form will be displayed."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/stripe.php:293
+#@ mp
+msgid "Force SSL (Live Site)"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/stripe.php:294
+#@ mp
+msgid "No SSL (Testing)"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/stripe.php:299
+#@ mp
+msgid "Stripe API Credentials"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/stripe.php:301
+#@ mp
+msgid "You must login to Stripe to <a target=\"_blank\" href=\"https://manage.stripe.com/#account/apikeys\">get your API credentials</a>. You can enter your test credentials, then live ones when ready."
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/stripe.php:302
+#@ mp
+msgid "Secret key"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/stripe.php:305
+#@ mp
+msgid "Publishable key"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/stripe.php:380
+#, php-format
+#@ mp
+msgid "%s Store Purchase - Order ID: %s, Email: %s"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/stripe.php:389
+#, php-format
+#@ mp
+msgid "%1$s Card ending in %2$s - Expires %3$s"
+msgstr ""
+
+#: marketpress-includes/plugins-gateway/stripe.php:402
+#, php-format
+#@ mp
+msgid "There was an error processing your card: \"%s\". Please <a href=\"%s\">go back and try again</a>."
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:31
+#@ mp
+msgid "FedEx"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:34
+#@ mp
+msgid "First Overnight"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:34
+#@ mp
+msgid "(1 Day am)"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:35
+#@ mp
+msgid "Priority Overnight"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:35
+#@ mp
+msgid "(1 Day am )"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:36
+#@ mp
+msgid "Standard Overnight"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:36
+#: marketpress-includes/plugins-shipping/mp-ups.php:52
+#@ mp
+msgid "(1 Day)"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:38
+#@ mp
+msgid "Fedex 2 Day AM"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:38
+#@ mp
+msgid "(2 Days am)"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:39
+#@ mp
+msgid "Fedex 2 Day"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:39
+#: marketpress-includes/plugins-shipping/mp-ups.php:49
+#: marketpress-includes/plugins-shipping/mp-ups.php:54
+#@ mp
+msgid "(2 Days)"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:42
+#@ mp
+msgid "Fedex Express Saver"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:42
+#: marketpress-includes/plugins-shipping/mp-ups.php:51
+#@ mp
+msgid "(3 Days)"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:46
+#@ mp
+msgid "Fedex Ground"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:46
+#@ mp
+msgid "(1-7 Days)"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:47
+#@ mp
+msgid "Ground Home Delivery"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:47
+#: marketpress-includes/plugins-shipping/mp-ups.php:50
+#: marketpress-includes/plugins-shipping/mp-ups.php:59
+#@ mp
+msgid "(1-5 Days)"
+msgstr "(1-5 Dagar)"
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:48
+#@ mp
+msgid "Smart Post"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:48
+#@ mp
+msgid "(2-7 Days)"
+msgstr "(2-7 Dagar)"
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:53
+#@ mp
+msgid "International Economy"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:53
+#@ mp
+msgid "(5 Days)"
+msgstr "(5 Dagar)"
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:55
+#@ mp
+msgid "International First"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:55
+#: marketpress-includes/plugins-shipping/mp-fedex.php:56
+#: marketpress-includes/plugins-shipping/mp-ups.php:55
+#: marketpress-includes/plugins-shipping/mp-ups.php:58
+#@ mp
+msgid "(1-3 Days)"
+msgstr "(1-3 Dagar)"
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:56
+#@ mp
+msgid "International Priority"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:58
+#@ mp
+msgid "Europe First International Priority"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:58
+#: marketpress-includes/plugins-shipping/mp-ups.php:48
+#@ mp
+msgid "(Next Day)"
+msgstr "(Nästa dag)"
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:121
+#@ mp
+msgid "Residential Delivery"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:125
+#@ mp
+msgid "Check if delivery is to a residence."
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:182
+#: marketpress-includes/plugins-shipping/mp-ups.php:178
+#: marketpress-includes/plugins-shipping/mp-usps.php:241
+#@ mp
+msgid "Remove Box"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:188
+#: marketpress-includes/plugins-shipping/mp-ups.php:184
+#: marketpress-includes/plugins-shipping/mp-usps.php:247
+#@ mp
+msgid "Add Box"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:231
+#@ mp
+msgid "FedEx Settings"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:235
+#@ mp
+msgid "Using this FedEx Shipping calculator requires requesting an Ecommerce API Username and Password. Get your free set of credentials <a target=\"_blank\" href=\"https://www.fedex.com/wpor/web/jsp/commonTC.jsp\">here &raquo;</a>"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:236
+#@ mp
+msgid "You must test and then Activate your credentials with FedEx before going live."
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:243
+#@ mp
+msgid "FedEx Test Mode"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:247
+#@ mp
+msgid "Production"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:252
+#@ mp
+msgid "FedEx API Key"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:256
+#@ mp
+msgid "FedEx Password"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:260
+#@ mp
+msgid "FedEx Account ID"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:264
+#@ mp
+msgid "FedEx Meter ID"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:268
+#@ mp
+msgid "FedEx Dropoff Type"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:271
+#@ mp
+msgid "Regular Pickup"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:272
+#@ mp
+msgid "Business Service Center"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:273
+#@ mp
+msgid "Drop Box"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:274
+#@ mp
+msgid "Request Courier"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:275
+#@ mp
+msgid "Station"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:280
+#@ mp
+msgid "FedEx Default Packaging"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:283
+#@ mp
+msgid "Your Packaging"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:284
+#@ mp
+msgid "FedEx Tube"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:285
+#@ mp
+msgid "FedEx Pak"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:286
+#@ mp
+msgid "FedEx Envelope"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:287
+#@ mp
+msgid "FedEx Box"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:288
+#@ mp
+msgid "FedEx 25kg Box"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:289
+#@ mp
+msgid "FedEx 10kg Box"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:294
+#@ mp
+msgid "FedEx Maximum Weight per Package"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:303
+#@ mp
+msgid "FedEx Request Mode"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:307
+#: marketpress-includes/plugins-shipping/mp-usps.php:320
+#@ mp
+msgid "Online rates"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:311
+#: marketpress-includes/plugins-shipping/mp-usps.php:324
+#@ mp
+msgid "Retail rates"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:317
+#@ mp
+msgid "FedEx Offered Domestic Services"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:328
+#: marketpress-includes/plugins-shipping/mp-usps.php:341
+#@ mp
+msgid "Handling Charge per Domestic Shipment "
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:335
+#@ mp
+msgid "FedEx Offered International Services"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:346
+#: marketpress-includes/plugins-shipping/mp-usps.php:359
+#@ mp
+msgid "Handling Charge per Interntional Shipment"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:354
+#: marketpress-includes/plugins-shipping/mp-ups.php:318
+#: marketpress-includes/plugins-shipping/mp-usps.php:367
+#@ mp
+msgid "Standard Boxes and Weight Limits"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:357
+#: marketpress-includes/plugins-shipping/mp-ups.php:321
+#: marketpress-includes/plugins-shipping/mp-usps.php:370
+#@ mp
+msgid "Enter your standard box sizes as LengthxWidthxHeight"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:359
+#: marketpress-includes/plugins-shipping/mp-ups.php:322
+#: marketpress-includes/plugins-shipping/mp-usps.php:372
+#@ mp
+msgid "For each box defined enter the maximum weight it can contain."
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:360
+#: marketpress-includes/plugins-shipping/mp-usps.php:373
+#@ mp
+msgid "Total weight selects the box size used for calculating Shipping costs."
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:370
+#: marketpress-includes/plugins-shipping/mp-ups.php:328
+#: marketpress-includes/plugins-shipping/mp-usps.php:383
+#@ mp
+msgid "Box Name"
+msgstr "Boxnamn"
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:371
+#: marketpress-includes/plugins-shipping/mp-ups.php:329
+#: marketpress-includes/plugins-shipping/mp-usps.php:384
+#@ mp
+msgid "Box Dimensions"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:372
+#: marketpress-includes/plugins-shipping/mp-ups.php:330
+#: marketpress-includes/plugins-shipping/mp-usps.php:385
+#@ mp
+msgid "Max Weight per Box"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:833
+#: marketpress-includes/plugins-shipping/mp-ups.php:756
+#: marketpress-includes/plugins-shipping/mp-usps.php:949
+#, php-format
+#@ mp
+msgid " %1$s - %2$s"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:865
+#: marketpress-includes/plugins-shipping/mp-ups.php:788
+#: marketpress-includes/plugins-shipping/mp-usps.php:981
+#@ mp
+msgid "Kilograms"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:874
+#: marketpress-includes/plugins-shipping/mp-ups.php:797
+#: marketpress-includes/plugins-shipping/mp-usps.php:990
+#@ mp
+msgid "Inches"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:874
+#: marketpress-includes/plugins-shipping/mp-ups.php:797
+#: marketpress-includes/plugins-shipping/mp-usps.php:990
+#@ mp
+msgid "Centimeters"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-fedex.php:905
+#@ mp
+msgid "FedEx (beta)"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-flat-rate.php:25
+#: marketpress-includes/plugins-shipping/mp-flat-rate.php:271
+#@ mp
+msgid "Flat Rate"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-flat-rate.php:66
+#@ mp
+msgid "Flat Rate Settings"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-flat-rate.php:68
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:78
+#@ mp
+msgid "Be sure to enter a shipping price for every option or those customers may get free shipping."
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-flat-rate.php:75
+#@ mp
+msgid "Lower 48 States"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-flat-rate.php:81
+#@ mp
+msgid "Hawaii and Alaska"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-flat-rate.php:87
+#@ mp
+msgid "Canada"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-flat-rate.php:93
+#: marketpress-includes/plugins-shipping/mp-flat-rate.php:116
+#: marketpress-includes/plugins-shipping/mp-flat-rate.php:141
+#: marketpress-includes/plugins-shipping/mp-flat-rate.php:156
+#@ mp
+msgid "International"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-flat-rate.php:104
+#: marketpress-includes/plugins-shipping/mp-flat-rate.php:129
+#: marketpress-includes/plugins-shipping/mp-flat-rate.php:150
+#@ mp
+msgid "In Country"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-flat-rate.php:110
+#@ mp
+msgid "United States"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-flat-rate.php:135
+#@ mp
+msgid "European Union"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-table-quantity.php:31
+#@ mp
+msgid "Table Quantity"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-table-quantity.php:79
+#@ mp
+msgid "Table Quantity Settings"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-table-quantity.php:81
+#@ mp
+msgid "Be sure to enter a shipping price for every option or those customers may get free shipping. Each layer must be a higher quantity than the previous."
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-table-quantity.php:84
+#@ mp
+msgid "Number of Bands:"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-table-quantity.php:94
+#@ mp
+msgid "Each band must be a higher price than the one above it."
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-table-quantity.php:98
+#: marketpress-includes/plugins-shipping/mp-table-quantity.php:104
+#@ mp
+msgid "If quantity is greater than:"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-table-quantity.php:99
+#: marketpress-includes/plugins-shipping/mp-table-quantity.php:105
+#@ mp
+msgid "Shipping Cost: "
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:27
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:320
+#@ mp
+msgid "Table Rate"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:75
+#@ mp
+msgid "Table Rate Settings"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:77
+#@ mp
+msgid "Be sure to enter a shipping price for every option or those customers may get free shipping. Each layer must be a higher price than the previous."
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:80
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:81
+#@ mp
+msgid "Number of Layers:"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:94
+#@ mp
+msgid "Each layer must be a higher price than the one above it."
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:103
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:115
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:129
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:140
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:154
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:165
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:177
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:187
+#@ mp
+msgid "If price is "
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:103
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:115
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:129
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:140
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:154
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:165
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:177
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:187
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:107
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:119
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:133
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:145
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:160
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:172
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:186
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:197
+#@ mp
+msgid " and above."
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:104
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:116
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:108
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:120
+#@ mp
+msgid "Shipping Cost - Lower 48 States:"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:105
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:117
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:109
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:121
+#@ mp
+msgid "Hawaii and Alaska:"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:106
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:118
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:110
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:122
+#@ mp
+msgid "Canada:"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:107
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:119
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:132
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:143
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:157
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:168
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:179
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:189
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:111
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:123
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:136
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:148
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:163
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:175
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:188
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:199
+#@ mp
+msgid "International:"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:130
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:141
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:155
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:166
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:178
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:188
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:134
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:146
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:161
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:173
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:187
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:198
+#@ mp
+msgid "Shipping Cost - In Country:"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:131
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:142
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:135
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:147
+#@ mp
+msgid "United States:"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:156
+#: marketpress-includes/plugins-shipping/mp-table-rate.php:167
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:162
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:174
+#@ mp
+msgid "European Union:"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:43
+#@ mp
+msgid "UPS"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:48
+#@ mp
+msgid "Next Day Air"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:49
+#@ mp
+msgid "2nd Day Air"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:50
+#@ mp
+msgid "Ground"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:51
+#@ mp
+msgid "3 Day Select"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:52
+#@ mp
+msgid "Next Day Air Saver"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:53
+#@ mp
+msgid "Next Day Air Early AM"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:53
+#@ mp
+msgid "(1 Days)"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:54
+#@ mp
+msgid "2nd Day Air AM"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:55
+#@ mp
+msgid "Worldwide Express"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:56
+#@ mp
+msgid "Worldwide Expedited"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:56
+#@ mp
+msgid "(2-5 Days)"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:57
+#@ mp
+msgid "Standard"
+msgstr "Standard"
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:57
+#@ mp
+msgid "(Scheduled)"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:58
+#@ mp
+msgid "Worldwide Express Plus"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:59
+#@ mp
+msgid "Saver"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:228
+#@ mp
+msgid "UPS Settings"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:236
+#@ mp
+msgid "In order to use UPS, you will need a UPS Developer Kit access key "
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:237
+#@ mp
+msgid "and the UPS user ID and password associated with the access key.  Set these up for free <a href=\"https://www.ups.com/upsdeveloperkit\" target=\"_blank\">here</a>.  "
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:238
+#@ mp
+msgid "If this information is missing or incorrect, an error will appear during the checkout process and the buyer will not be able to complete the transaction."
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:244
+#@ mp
+msgid "UPS Sandbox Mode"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:254
+#@ mp
+msgid "UPS Developer Kit Access Key"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:263
+#@ mp
+msgid "UPS User ID"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:272
+#@ mp
+msgid "UPS Password"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:281
+#@ mp
+msgid "UPS Shipper Number"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:282
+#@ mp
+msgid "Required if using negotiated rates"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:290
+#@ mp
+msgid "UPS Offered Domestic Services"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:301
+#@ mp
+msgid "Handling Charge per Box Shipped"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:309
+#@ mp
+msgid "Default Weight (for products whose weights are not specified)"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:357
+#@ mp
+msgid "Note: the shipping prices this plugin calculates are estimates.  If they are consistently too low or too high, please check that the list of boxes above and the product weights are accurate and complete."
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-ups.php:845
+#@ mp
+msgid "UPS (beta)"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:61
+#: marketpress-includes/plugins-shipping/mp-usps.php:1000
+#@ mp
+msgid "USPS"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:66
+#@ mp
+msgid "Express Mail"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:66
+#: marketpress-includes/plugins-shipping/mp-usps.php:69
+#: marketpress-includes/plugins-shipping/mp-usps.php:72
+#: marketpress-includes/plugins-shipping/mp-usps.php:75
+#: marketpress-includes/plugins-shipping/mp-usps.php:78
+#: marketpress-includes/plugins-shipping/mp-usps.php:81
+#@ mp
+msgid "(1-2 days)"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:69
+#@ mp
+msgid "Express Mail Hold For Pickup"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:72
+#@ mp
+msgid "Express Mail Sunday/Holiday Delivery"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:75
+#@ mp
+msgid "Express Mail Flat Rate Boxes"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:78
+#@ mp
+msgid "Express Mail Flat Rate Boxes Hold For Pickup"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:81
+#@ mp
+msgid "Express Mail Sunday/Holiday Delivery Flat Rate Boxes"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:84
+#@ mp
+msgid "Priority Mail"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:84
+#@ mp
+msgid "(2-4) days"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:87
+#@ mp
+msgid "Priority Mail Large Flat Rate Box"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:87
+#: marketpress-includes/plugins-shipping/mp-usps.php:90
+#: marketpress-includes/plugins-shipping/mp-usps.php:93
+#: marketpress-includes/plugins-shipping/mp-usps.php:96
+#@ mp
+msgid "(2-4 days)"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:90
+#@ mp
+msgid "Priority Mail Medium Flat Rate Box"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:93
+#@ mp
+msgid "Priority Mail Small Flat Rate Box"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:96
+#@ mp
+msgid "First-Class Mail Parcel"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:99
+#@ mp
+msgid "Parcel Post"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:99
+#@ mp
+msgid "(4-7 days)"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:102
+#@ mp
+msgid "Media Mail"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:105
+#@ mp
+msgid "Library Mail"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:111
+#@ mp
+msgid "Express Mail International"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:114
+#@ mp
+msgid "Express Mail International Flat Rate Boxes"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:117
+#@ mp
+msgid "Priority Mail International"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:120
+#@ mp
+msgid "Priority Mail International Large Flat Rate Boxes"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:123
+#@ mp
+msgid "Priority Mail International Medium Flat Rate Boxes"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:126
+#@ mp
+msgid "Priority Mail International Small Flat Rate Boxes"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:129
+#@ mp
+msgid "First Class International Parcel"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:147
+#@ mp
+msgid "Flat Rate Small"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:148
+#@ mp
+msgid "Flat Rate Medium 1"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:149
+#@ mp
+msgid "Flat Rate Medium 2"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:150
+#@ mp
+msgid "Flat Rate Large"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:291
+#@ mp
+msgid "USPS Settings"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:295
+#@ mp
+msgid "Using this USPS Shipping calculator requires requesting an Ecommerce API Username and Password. Get your free set of credentials <a target=\"_blank\" href=\"https://secure.shippingapis.com/registration/\">here &raquo;</a>"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:296
+#@ mp
+msgid "The password is no longer used for the API, just the username which you should enter below."
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:297
+#@ mp
+msgid "The USPS test site has not yet been updated and currently doesn't work. You should just request activating your credentials with USPS and go live."
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:304
+#@ mp
+msgid "USPS Username"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:308
+#@ mp
+msgid "USPS Maximum Weight per Package"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:316
+#@ mp
+msgid "USPS Request Mode"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:330
+#@ mp
+msgid "USPS Offered Domestic Services"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-usps.php:348
+#@ mp
+msgid "USPS Offered International Services"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:27
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:345
+#@ mp
+msgid "Weight Rate"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:76
+#@ mp
+msgid "Weight Rate Settings"
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:99
+#@ mp
+msgid "Each layer must be a higher weight then the one above it."
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:107
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:119
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:133
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:145
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:160
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:172
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:186
+#: marketpress-includes/plugins-shipping/mp-weight-rate.php:197
+#@ mp
+msgid "If weight is "
+msgstr ""
+
+#: marketpress-includes/plugins-shipping/plugin-template.php:26
+#@ mp
+msgid "My Plugin"
+msgstr ""
+
+#: marketpress-includes/template-functions.php:211
+#: marketpress-includes/template-functions.php:315
+#: marketpress-includes/template-functions.php:423
+#@ mp
+msgid "Item:"
+msgstr "Artikel:"
+
+#: marketpress-includes/template-functions.php:212
+#: marketpress-includes/template-functions.php:317
+#: marketpress-includes/template-functions.php:425
+#@ mp
+msgid "Price:"
+msgstr "Pris:"
+
+#: marketpress-includes/template-functions.php:213
+#: marketpress-includes/template-functions.php:1809
+#@ mp
+msgid "Quantity:"
+msgstr "Kvantitet:"
+
+#: marketpress-includes/template-functions.php:232
+#@ mp
+msgid "Remove"
+msgstr "Ta bort"
+
+#: marketpress-includes/template-functions.php:256
+#: marketpress-includes/template-functions.php:380
+#: marketpress-includes/template-functions.php:452
+#@ mp
+msgid "Subtotal:"
+msgstr "Delsumma:"
+
+#: marketpress-includes/template-functions.php:261
+#: marketpress-includes/template-functions.php:384
+#@ mp
+msgid "Discount:"
+msgstr "Rabatt:"
+
+#: marketpress-includes/template-functions.php:263
+#@ mp
+msgid "Remove Coupon &raquo;"
+msgstr "Ta bort kupong &raquo;"
+
+#: marketpress-includes/template-functions.php:269
+#@ mp
+msgid "Have a coupon code?"
+msgstr "Har du rabattkod?"
+
+#: marketpress-includes/template-functions.php:271
+#@ mp
+msgid "Enter your code:"
+msgstr "Ange rabattkod:"
+
+#: marketpress-includes/template-functions.php:273
+#@ mp
+msgid "Apply &raquo;"
+msgstr "Verkställ &raquo;"
+
+#: marketpress-includes/template-functions.php:287
+#: marketpress-includes/template-functions.php:398
+#: marketpress-includes/template-functions.php:1020
+#@ mp
+msgid "Shipping:"
+msgstr "Frakt:"
+
+#: marketpress-includes/template-functions.php:305
+#: marketpress-includes/template-functions.php:414
+#@ mp
+msgid "Cart Total:"
+msgstr "Summa för kundvagn:"
+
+#: marketpress-includes/template-functions.php:307
+#@ mp
+msgid "Update Cart &raquo;"
+msgstr "Uppdatera summa &raquo;"
+
+#: marketpress-includes/template-functions.php:316
+#: marketpress-includes/template-functions.php:424
+#@ mp
+msgid "Qty:"
+msgstr "Kvantitet:"
+
+#: marketpress-includes/template-functions.php:345
+#@ mp
+msgid "Product Extra Fields:"
+msgstr "Extra fält för produkt:"
+
+#: marketpress-includes/template-functions.php:474
+#: marketpress-includes/template-functions.php:505
+#@ mp
+msgid "Checkout Now &raquo;"
+msgstr "Betala nu &raquo;"
+
+#: marketpress-includes/template-functions.php:479
+#@ mp
+msgid "Have a User Account?"
+msgstr "Har du ett användarkonto?"
+
+#: marketpress-includes/template-functions.php:482
+#@ mp
+msgid "Register To Checkout"
+msgstr "Registrera dig för att betala"
+
+#: marketpress-includes/template-functions.php:484
+#@ mp
+msgid "Checkout Directly"
+msgstr "Köp direkt"
+
+#: marketpress-includes/template-functions.php:490
+#: marketpress-includes/template-functions.php:1165
+#@ mp
+msgid "Username"
+msgstr "Användarnamn"
+
+#: marketpress-includes/template-functions.php:493
+#: marketpress-includes/template-functions.php:1168
+#@ mp
+msgid "Password"
+msgstr "Lösenord"
+
+#: marketpress-includes/template-functions.php:496
+#@ mp
+msgid "Login and Checkout &raquo;"
+msgstr "Logga in och betala &raquo;"
+
+#: marketpress-includes/template-functions.php:500
+#: marketpress-includes/template-functions.php:1175
+#@ mp
+msgid "or"
+msgstr "eller"
+
+#: marketpress-includes/template-functions.php:503
+#@ mp
+msgid "Register Now To Checkout &raquo;"
+msgstr "Registrera nu för att betala &raquo;"
+
+#: marketpress-includes/template-functions.php:540
+#@ mp
+msgid "Made a purchase here before?"
+msgstr "Har du köpt här tidigare?"
+
+#: marketpress-includes/template-functions.php:540
+#@ mp
+msgid "Login now to retrieve your saved info &raquo;"
+msgstr "Logga in nu och hämta din sparade information &raquo;"
+
+#: marketpress-includes/template-functions.php:551
+#@ mp
+msgid "Enter Your Checkout Information:"
+msgstr "Ange dina betalningsuppgifter:"
+
+#: marketpress-includes/template-functions.php:551
+#@ mp
+msgid "Enter Your Shipping Information:"
+msgstr "Ange dina leveransuppgifter:"
+
+#: marketpress-includes/template-functions.php:612
+#@ mp
+msgid "Special Instructions:"
+msgstr "Specifika instruktioner:"
+
+#: marketpress-includes/template-functions.php:633
+#: marketpress-includes/template-functions.php:1032
+#@ mp
+msgid "Shipping Information:"
+msgstr "Leveransinformation:"
+
+#: marketpress-includes/template-functions.php:634
+#@ mp
+msgid "Edit"
+msgstr "Redigera"
+
+#: marketpress-includes/template-functions.php:714
+#@ mp
+msgid "Choose a Payment Method:"
+msgstr "Välj betalmetod:"
+
+#: marketpress-includes/template-functions.php:748
+#@ mp
+msgid "Confirm Payment &raquo;"
+msgstr "Bekräfta betalning &raquo;"
+
+#: marketpress-includes/template-functions.php:765
+#, php-format
+#@ mp
+msgid "You may track the latest status of your order(s) here:<br />%s"
+msgstr "Du kan se den senaste statusen av dina beställningar här: <br />%s"
+
+#: marketpress-includes/template-functions.php:802
+#: marketpress-includes/template-functions.php:849
+#@ mp
+msgid "Empty your shopping cart"
+msgstr "Töm kundvagn"
+
+#: marketpress-includes/template-functions.php:802
+#: marketpress-includes/template-functions.php:849
+#@ mp
+msgid "Empty Cart"
+msgstr "Töm kundvagn"
+
+#: marketpress-includes/template-functions.php:803
+#: marketpress-includes/template-functions.php:850
+#@ mp
+msgid "Go To Checkout Page"
+msgstr "Gå till kassa"
+
+#: marketpress-includes/template-functions.php:803
+#: marketpress-includes/template-functions.php:850
+#@ mp
+msgid "Checkout &raquo;"
+msgstr "Betala &raquo;"
+
+#: marketpress-includes/template-functions.php:857
+#@ mp
+msgid "There are no items in your cart."
+msgstr "Det finns inga varor i din kundvagn."
+
+#: marketpress-includes/template-functions.php:858
+#@ mp
+msgid "Browse Products &raquo;"
+msgstr "Bläddra bland artiklar &raquo;"
+
+#: marketpress-includes/template-functions.php:886
+#, php-format
+#@ mp
+msgid "Order Details (%s):"
+msgstr "Orderdetaljer (%s):"
+
+#: marketpress-includes/template-functions.php:888
+#@ mp
+msgid "Current Status"
+msgstr "Nuvarande status"
+
+#: marketpress-includes/template-functions.php:899
+#: marketpress-includes/template-functions.php:902
+#: marketpress-includes/template-functions.php:906
+#@ mp
+msgid "Received:"
+msgstr "Mottagen:"
+
+#: marketpress-includes/template-functions.php:901
+#: marketpress-includes/template-functions.php:905
+#@ mp
+msgid "Paid:"
+msgstr "Betald:"
+
+#: marketpress-includes/template-functions.php:904
+#@ mp
+msgid "Shipped:"
+msgstr "Skickad:"
+
+#: marketpress-includes/template-functions.php:914
+#@ mp
+msgid "Payment Information:"
+msgstr "Betalningsinformation:"
+
+#: marketpress-includes/template-functions.php:917
+#@ mp
+msgid "Payment Method:"
+msgstr "Betalningsmetod:"
+
+#: marketpress-includes/template-functions.php:921
+#@ mp
+msgid "Payment Type:"
+msgstr "Betalningstyp:"
+
+#: marketpress-includes/template-functions.php:925
+#@ mp
+msgid "Transaction ID:"
+msgstr "TransaktionsID:"
+
+#: marketpress-includes/template-functions.php:929
+#@ mp
+msgid "Payment Total:"
+msgstr "Betalsumma:"
+
+#: marketpress-includes/template-functions.php:935
+#@ mp
+msgid "Order Information:"
+msgstr "Information kring beställning:"
+
+#: marketpress-includes/template-functions.php:939
+#@ mp
+msgid "Item"
+msgstr "Artikel"
+
+#: marketpress-includes/template-functions.php:940
+#@ mp
+msgid "Quantity"
+msgstr "Kvantitet"
+
+#: marketpress-includes/template-functions.php:941
+#@ mp
+msgid "Price"
+msgstr "Pris"
+
+#: marketpress-includes/template-functions.php:942
+#@ mp
+msgid "Subtotal"
+msgstr "Delsumma"
+
+#: marketpress-includes/template-functions.php:943
+#@ mp
+msgid "Download"
+msgstr "Ladda ner"
+
+#: marketpress-includes/template-functions.php:975
+#: marketpress-includes/template-functions.php:2358
+#@ mp
+msgid "Product Personalization:"
+msgstr "Produktanpassning:"
+
+#: marketpress-includes/template-functions.php:993
+#@ mp
+msgid "Download&raquo;"
+msgstr "Ladda ner&raquo;"
+
+#: marketpress-includes/template-functions.php:995
+#@ mp
+msgid "Limit Reached"
+msgstr "Gräns uppnådd"
+
+#: marketpress-includes/template-functions.php:997
+#@ mp
+msgid "Awaiting Payment"
+msgstr "Inväntar betalning"
+
+#: marketpress-includes/template-functions.php:1007
+#@ mp
+msgid "No products could be found for this order"
+msgstr "Inga produkter kunde hittas för denna beställning"
+
+#: marketpress-includes/template-functions.php:1028
+#@ mp
+msgid "Order Total:"
+msgstr "Totalsumma för beställning:"
+
+#: marketpress-includes/template-functions.php:1082
+#@ mp
+msgid "Tracking Number:"
+msgstr "Spårningsnummer:"
+
+#: marketpress-includes/template-functions.php:1090
+#@ mp
+msgid "Order Notes:"
+msgstr "Noteringar:"
+
+#: marketpress-includes/template-functions.php:1096
+#@ mp
+msgid "&laquo; Back"
+msgstr "&laquo; Tillbaka"
+
+#: marketpress-includes/template-functions.php:1100
+#@ mp
+msgid "Invalid Order ID. Please try again:"
+msgstr "Felaktig OrderID. Försök igen:"
+
+#: marketpress-includes/template-functions.php:1103
+#: marketpress-includes/template-functions.php:1178
+#: marketpress-includes/template-functions.php:1190
+#@ mp
+msgid "Enter your 12-digit Order ID number:"
+msgstr "Ange din 12-siffriga orderID-nummer:"
+
+#: marketpress-includes/template-functions.php:1105
+#: marketpress-includes/template-functions.php:1148
+#: marketpress-includes/template-functions.php:1180
+#: marketpress-includes/template-functions.php:1192
+#@ mp
+msgid "Look Up &raquo;"
+msgstr "Kolla upp &raquo;"
+
+#: marketpress-includes/template-functions.php:1138
+#@ mp
+msgid "Your Recent Orders:"
+msgstr "Dina senaste beställningar:"
+
+#: marketpress-includes/template-functions.php:1146
+#@ mp
+msgid "Or enter your 12-digit Order ID number:"
+msgstr "Eller ange din 12-siffriga orderID-nummer:"
+
+#: marketpress-includes/template-functions.php:1158
+#@ mp
+msgid "Have a User Account? Login To View Your Order History:"
+msgstr "Har du ett användarkonto? Logga in för att se beställningshistorik:"
+
+#: marketpress-includes/template-functions.php:1171
+#@ mp
+msgid "Login &raquo;"
+msgstr "Logga in &raquo;"
+
+#: marketpress-includes/template-functions.php:1209
+#@ mp
+msgid "Track your UPS package &raquo;"
+msgstr "Spåra ditt UPS-paket &raquo;"
+
+#: marketpress-includes/template-functions.php:1211
+#@ mp
+msgid "Track your FedEx package &raquo;"
+msgstr "Spåra ditt Fedex-paket &raquo;"
+
+#: marketpress-includes/template-functions.php:1213
+#@ mp
+msgid "Track your USPS package &raquo;"
+msgstr "Spåra ditt USPS-paket &raquo;"
+
+#: marketpress-includes/template-functions.php:1215
+#@ mp
+msgid "Track your DHL package &raquo;"
+msgstr "Spåra ditt DHL-paket &raquo;"
+
+#: marketpress-includes/template-functions.php:1242
+#@ mp
+msgid "Select:"
+msgstr "Välj:"
+
+#: marketpress-includes/template-functions.php:1552
+#@ mp
+msgid "Uncategorized"
+msgstr "Okategoriserat"
+
+#: marketpress-includes/template-functions.php:1569
+#@ mp
+msgid "No Tags"
+msgstr "Inga taggar"
+
+#: marketpress-includes/template-functions.php:1667
+#@ mp
+msgid "Price: "
+msgstr "Pris:"
+
+#: marketpress-includes/template-functions.php:1693
+#: marketpress-includes/template-functions.php:1697
+#@ mp
+msgid "from"
+msgstr "från"
+
+#: marketpress-includes/template-functions.php:1771
+#@ mp
+msgid "Out of Stock"
+msgstr "Slut på lager"
+
+#: marketpress-includes/template-functions.php:1796
+#@ mp
+msgid "Choose Option &raquo;"
+msgstr "Välj ett alternativ &raquo;"
+
+#: marketpress-includes/template-functions.php:1799
+#: marketpress-includes/template-functions.php:1814
+#@ mp
+msgid "Add To Cart &raquo;"
+msgstr "Lägg till i kundvagn &raquo;"
+
+#: marketpress-includes/template-functions.php:1908
+#@ mp
+msgid "View Larger Image &raquo;"
+msgstr "Visa större bild &raquo;"
+
+#: marketpress-includes/template-functions.php:1962
+#@ mp
+msgid "Show All"
+msgstr "Visa alla"
+
+#: marketpress-includes/template-functions.php:1972
+#@ mp
+msgid "Default"
+msgstr "Default"
+
+#: marketpress-includes/template-functions.php:1973
+#@ mp
+msgid "Release Date"
+msgstr "Utsläppsdatum"
+
+#: marketpress-includes/template-functions.php:1975
+#@ mp
+msgid "Price (Low to High)"
+msgstr "Pris (Låg till Hög)"
+
+#: marketpress-includes/template-functions.php:1976
+#@ mp
+msgid "Price (High to Low)"
+msgstr "Pris (Hög till Låg)"
+
+#: marketpress-includes/template-functions.php:1977
+#@ mp
+msgid "Popularity"
+msgstr "Popularitet"
+
+#: marketpress-includes/template-functions.php:1993
+#@ mp
+msgid "Category"
+msgstr "Kategori"
+
+#: marketpress-includes/template-functions.php:1998
+#@ mp
+msgid "Order By"
+msgstr "Sortera efter"
+
+#: marketpress-includes/template-functions.php:2025
+#: marketpress-includes/template-functions.php:2161
+#@ mp
+msgid "Shopping Cart"
+msgstr "Kundvagn"
+
+#: marketpress-includes/template-functions.php:2048
+#@ mp
+msgid "Visit Store"
+msgstr "Besök butik"
+
+#: marketpress-includes/template-functions.php:2071
+#@ mp
+msgid "View Products"
+msgstr "Se produkter"
+
+#: marketpress-includes/template-functions.php:2094
+#@ mp
+msgid "Check Order Status"
+msgstr "Se orderstatus"
+
+#: marketpress-includes/template-functions.php:2120
+#@ mp
+msgid "Review Cart"
+msgstr "Granska kundvagn"
+
+#: marketpress-includes/template-functions.php:2122
+#@ mp
+msgid "Checkout"
+msgstr "Betala"
+
+#: marketpress-includes/template-functions.php:2123
+#@ mp
+msgid "Confirm"
+msgstr "Bekräfta"
+
+#: marketpress-includes/template-functions.php:2124
+#@ mp
+msgid "Thankyou"
+msgstr "Tack"
+
+#: marketpress-includes/template-functions.php:2162
+#@ mp
+msgid "Order Status"
+msgstr "Orderstatus"
+
+#: marketpress-includes/template-functions.php:2299
+#@ mp
+msgid "required"
+msgstr "obligatorisk"
+
+#: marketpress-includes/template-functions.php:2301
+#@ mp
+msgid "optional"
+msgstr "frivillig"
+
+#: marketpress-includes/template-functions.php:2402
+#@ mp
+msgid "Product Extra Fields"
+msgstr "Extrafält för produkt"
+
